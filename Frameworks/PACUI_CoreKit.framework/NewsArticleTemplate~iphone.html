@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        
+        <meta name="viewport" content="initial-scale=1.0" />
+        
+        <style type="text/css" media="screen">
+            
+        img {
+            margin: 10px 0px 10px 0px;
+            border:1px solid #E3E3E3;
+            width: 100%;
+            object-fit: cover;
+        }
+            
+        .category {
+            font-size: {{{CategoryFontSize}}}px;
+            font-family: {{{CategoryFontName}}};
+            color: {{{CategoryFontColor}}};
+            line-height:24px;
+        }
+        
+        .headline {
+            font-size: {{{HeadlineFontSize}}}px;
+            font-family: {{{HeadlineFontName}}};
+            color: {{{HeadlineFontColor}}};
+            line-height:34px;
+        }
+        
+        .byline {
+            font-size: {{{BylineFontSize}}}px;
+            font-family: {{{BylineFontName}}};
+            color: {{{BylineFontColor}}};
+            line-height:18px;
+        }
+        
+        .dateline {
+            font-size: {{{DatelineFontSize}}}px;
+            font-family: {{{DatelineFontName}}};
+            color: {{{DatelineFontColor}}};
+            line-height:18px;
+        }
+        
+        body {
+            font-size: {{{BodyTextFontSize}}}px;
+            font-family: {{{BodyTextFontName}}};
+            color: {{{BodyTextFontColor}}};
+            line-height: 22px;
+            margin-top: 32px;
+            margin-bottom: 25px;
+            margin-left: {{{BodyLeftRightMargin}}};
+            margin-right: {{{BodyLeftRightMargin}}};
+        }
+        
+        .spacer1 {
+            height: 5px;
+        }
+        
+        .spacer2 {
+            height: 22px;
+        }
+        
+        </style>
+        
+    </head>
+    <body>
+        <div class="category">{{{Category}}}</div>
+        <div class="headline">{{{Headline}}}</div>
+        <div class="spacer1"></div>
+        <div class="byline">{{{ByLine}}}</div>
+        <div class="dateline">{{{DateLine}}}</div>
+        <div class="spacer2"></div>
+        {{{Body}}}
+        <p></p>
+    </body>
+</html>

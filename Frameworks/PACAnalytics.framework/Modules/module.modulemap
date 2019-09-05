@@ -1,0 +1,6 @@
+framework module PACAnalytics {
+  umbrella header "PACAnalytics.h"
+
+  export *
+  module * { export * }
+}

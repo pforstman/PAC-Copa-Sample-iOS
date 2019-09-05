@@ -1,0 +1,6 @@
+framework module PACCoreKit {
+  umbrella header "PACCoreKit.h"
+
+  export *
+  module * { export * }
+}

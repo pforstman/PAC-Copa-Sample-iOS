@@ -1,0 +1,6 @@
+framework module PACMetadata {
+  umbrella header "PACMetadata.h"
+
+  export *
+  module * { export * }
+}

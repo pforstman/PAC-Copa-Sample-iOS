@@ -1,0 +1,1405 @@
+//
+// Mini-App stylesheet.cas
+//
+
+
+////////////////////////////////////////////////////
+// Color Definitions
+////////////////////////////////////////////////////
+$ps-primary = #006cb3;
+$ps-primary_pressed = #005c99;
+$ps-primary_60 = #425161;
+$ps-primary_inactive = ;
+$ps-primary_inactive_text = ;
+$ps-primary_disabled = #d9d9d9;
+$ps-bg_color = #dbdad8;
+$ps-bg_color_for_bg_image = #dbdad8;
+$ps-button_icon = #ffffff;
+$ps-entertainment_divider_line = #cccccc;
+$ps-entertainment_chevron = #121212;
+$ps-favorite_star_badge = #ffffff;
+$ps-live_highlight = #006cb3;
+$ps-live_shell = #333333;
+$ps-live_shell_inactive = #262626;
+$ps-secondary = #006cb3;
+$ps-secondary_pressed = #005c99;
+$ps-search_icons = #ffffff;
+$ps-nav_bg = #0d3050;
+$ps-nav_connection_bar = #0d3050;
+$ps-nav_pressed_block = #0a1f36;
+$ps-nav_selected_block = #006cb3;
+$ps-nav_selected_icon = #ffffff;
+$ps-nav_top_bar = #001123;
+$ps-nav_icons = #ffffff;
+$ps-nav_icon_exit = #ffffff;
+$ps-top_bar = #0d3050;
+$ps-top_bar_active = #ffffff;
+$ps-top_bar_nav_active = #006cb3;
+$ps-top_bar_inactive = #314356;
+$ps-top_bar_icons = #006cb3;
+$ps-top_bar_popover = #dedede;
+$ps-flight_tracker_left = #006cb3;
+$ps-flight_tracker_right = #6c7986;
+$ps-flight_tracker_text = #ffffff;
+$ps-flight_tracker_text_primary = #006cb3;
+$ps-flight_tracker_plane = #ffffff;
+$ps-flight_tracker_plane_module = #131313;
+$ps-miniplayer_scrubber = #ffffff;
+$ps-miniplayer_icons = #ffffff;
+$ps-miniplayer_played = #006cb3;
+$ps-miniplayer_unplayed = #6c7986;
+$ps-carousel_placeholder = #172737;
+$ps-carousel_placeholder_bg = #001123;
+$ps-miniplayer_bg = #0d3050;
+$ps-play_btn_md = #818181;
+$ps-player_scrubber = #ffffff;
+$ps-player_flight_tracker_left = #006cb3;
+$ps-player_flight_tracker_right = #787878;
+$ps-player_flight_tracker_text = #ffffff;
+$ps-player_flight_tracker_plane = #ffffff;
+$ps-player_icons = #ffffff;
+$ps-player_highlight = #006cb3;
+$ps-player_nav_bars = rgba(0, 0, 0, 0.7);
+$ps-player_played = #006cb3;
+$ps-player_unplayed = #a9a9a9;
+$ps-overlay_bg = #fafafa;
+$ps-alert_icon = #006cb3;
+$ps-black = #000000;
+$ps-black_90 = #131313;
+$ps-black_60 = #666666;
+$ps-black_50 = #818181;
+$ps-black_40 = #a9a9a9;
+$ps-black_15 = #d9d9d9;
+$ps-black_10 = #e5e5e5;
+$ps-black_6 = #f0f0f0;
+$ps-white = #ffffff;
+$ps-kids_zone_bg = #31a7d3;
+$ps-star_rating = #deb739;
+$ps-err_color = #d40000;
+$ps-success_color = #247f00;
+$ps-clear = #00000000;
+
+////////////////////////////////////////////////////
+// Fonts Definitions
+////////////////////////////////////////////////////
+
+$lato-regular = Lato-Regular;
+$lato-medium = Lato-Medium;
+$lato-bold = Lato-Bold;
+$lato-light = Lato-Light;
+$lato-italic = Lato-Italic;
+$lato-thin = Lato-Thin;
+
+
+//////////////////////////////////////////////////////////////
+// UIView styles
+//////////////////////////////////////////////////////////////
+UIView.primary_color_style {
+    background-color: $ps-primary;
+}
+UIView.primary_pressed_color_style {
+    background-color: $ps-primary_pressed;
+}
+UIView.primary_60_color_style {
+    background-color: $ps-primary_60;
+}
+UIView.primary_inactive_color_style {
+    background-color: $ps-primary_inactive;
+}
+UIView.primary_inactive_text_color_style {
+    background-color: $ps-primary_inactive_text;
+}
+UIView.primary_disabled_color_style {
+    background-color: $ps-primary_disabled;
+}
+UIView.bg_color_color_style {
+    background-color: $ps-bg_color;
+}
+UIView.bg_color_for_bg_image_color_style {
+    background-color: $ps-bg_color_for_bg_image;
+}
+UIView.button_icon_color_style {
+    background-color: $ps-button_icon;
+}
+UIView.entertainment_divider_line_color_style {
+    background-color: $ps-entertainment_divider_line;
+}
+UIView.entertainment_chevron_color_style {
+    background-color: $ps-entertainment_chevron;
+}
+UIView.favorite_star_badge_color_style {
+    background-color: $ps-favorite_star_badge;
+}
+UIView.live_highlight_color_style {
+    background-color: $ps-live_highlight;
+}
+UIView.live_shell_color_style {
+    background-color: $ps-live_shell;
+}
+UIView.live_shell_inactive_color_style {
+    background-color: $ps-live_shell_inactive;
+}
+UIView.secondary_color_style {
+    background-color: $ps-secondary;
+}
+UIView.secondary_pressed_color_style {
+    background-color: $ps-secondary_pressed;
+}
+UIView.search_icons_color_style {
+    background-color: $ps-search_icons;
+}
+UIView.nav_bg_color_style {
+    background-color: $ps-nav_bg;
+}
+UIView.nav_connection_bar_color_style {
+    background-color: $ps-nav_connection_bar;
+}
+UIView.nav_pressed_block_color_style {
+    background-color: $ps-nav_pressed_block;
+}
+UIView.nav_selected_block_color_style {
+    background-color: $ps-nav_selected_block;
+}
+UIView.nav_selected_icon_color_style {
+    background-color: $ps-nav_selected_icon;
+}
+UIView.nav_top_bar_color_style {
+    background-color: $ps-nav_top_bar;
+}
+UIView.nav_icons_color_style {
+    background-color: $ps-nav_icons;
+}
+UIView.nav_icon_exit_color_style {
+    background-color: $ps-nav_icon_exit;
+}
+UIView.top_bar_color_style {
+    background-color: $ps-top_bar;
+}
+UIView.top_bar_active_color_style {
+    background-color: $ps-top_bar_active;
+}
+UIView.top_bar_nav_active_color_style {
+    background-color: $ps-top_bar_nav_active;
+}
+UIView.top_bar_inactive_color_style {
+    background-color: $ps-top_bar_inactive;
+}
+UIView.top_bar_icons_color_style {
+    background-color: $ps-top_bar_icons;
+}
+UIView.top_bar_popover_color_style {
+    background-color: $ps-top_bar_popover;
+}
+UIView.flight_tracker_left_color_style {
+    background-color: $ps-flight_tracker_left;
+}
+UIView.flight_tracker_right_color_style {
+    background-color: $ps-flight_tracker_right;
+}
+UIView.flight_tracker_text_color_style {
+    background-color: $ps-flight_tracker_text;
+}
+UIView.flight_tracker_text_primary_color_style {
+    background-color: $ps-flight_tracker_text_primary;
+}
+UIView.flight_tracker_plane_color_style {
+    background-color: $ps-flight_tracker_plane;
+}
+UIView.flight_tracker_plane_module_color_style {
+    background-color: $ps-flight_tracker_plane_module;
+}
+UIView.miniplayer_scrubber_color_style {
+    background-color: $ps-miniplayer_scrubber;
+}
+UIView.miniplayer_icons_color_style {
+    background-color: $ps-miniplayer_icons;
+}
+UIView.miniplayer_played_color_style {
+    background-color: $ps-miniplayer_played;
+}
+UIView.miniplayer_unplayed_color_style {
+    background-color: $ps-miniplayer_unplayed;
+}
+UIView.carousel_placeholder_color_style {
+    background-color: $ps-carousel_placeholder;
+}
+UIView.carousel_placeholder_bg_color_style {
+    background-color: $ps-carousel_placeholder_bg;
+}
+UIView.miniplayer_bg_color_style {
+    background-color: $ps-miniplayer_bg;
+}
+UIView.play_btn_md_color_style {
+    background-color: $ps-play_btn_md;
+}
+UIView.player_scrubber_color_style {
+    background-color: $ps-player_scrubber;
+}
+UIView.player_flight_tracker_left_color_style {
+    background-color: $ps-player_flight_tracker_left;
+}
+UIView.player_flight_tracker_right_color_style {
+    background-color: $ps-player_flight_tracker_right;
+}
+UIView.player_flight_tracker_text_color_style {
+    background-color: $ps-player_flight_tracker_text;
+}
+UIView.player_flight_tracker_plane_color_style {
+    background-color: $ps-player_flight_tracker_plane;
+}
+UIView.player_icons_color_style {
+    background-color: $ps-player_icons;
+}
+UIView.player_highlight_color_style {
+    background-color: $ps-player_highlight;
+}
+UIView.player_nav_bars_color_style {
+    background-color: $ps-player_nav_bars;
+}
+UIView.player_played_color_style {
+    background-color: $ps-player_played;
+}
+UIView.player_unplayed_color_style {
+    background-color: $ps-player_unplayed;
+}
+UIView.overlay_bg_color_style {
+    background-color: $ps-overlay_bg;
+}
+UIView.alert_icon_color_style {
+    background-color: $ps-alert_icon;
+}
+UIView.black_color_style {
+    background-color: $ps-black;
+}
+UIView.black_90_color_style {
+    background-color: $ps-black_90;
+}
+UIView.black_60_color_style {
+    background-color: $ps-black_60;
+}
+UIView.black_50_color_style {
+    background-color: $ps-black_50;
+}
+UIView.black_40_color_style {
+    background-color: $ps-black_40;
+}
+UIView.black_15_color_style {
+    background-color: $ps-black_15;
+}
+UIView.black_10_color_style {
+    background-color: $ps-black_10;
+}
+UIView.black_6_color_style {
+    background-color: $ps-black_6;
+}
+UIView.white_color_style {
+    background-color: $ps-white;
+}
+UIView.kids_zone_bg_color_style {
+    background-color: $ps-kids_zone_bg;
+}
+UIView.star_rating_color_style {
+    background-color: $ps-star_rating;
+}
+UIView.err_color_color_style {
+    background-color: $ps-err_color;
+}
+UIView.success_color_color_style {
+    background-color: $ps-success_color;
+}
+UIView.clear_color_style {
+    background-color: $ps-clear;
+}
+
+
+UIView.card_background_rounded {
+    background-color: $ps-white;
+    layer @{
+        corner-radius: 6;
+    }
+}
+
+//////////////////////////////////////////////////////////////
+
+
+
+
+
+//////////////////////////////////////////////////////////////
+// UILabel styles
+//////////////////////////////////////////////////////////////
+UILabel.account_header {
+    font: $lato-bold 19;
+    text-color: $ps-white;
+}
+UILabel.account_subheader {
+    font: $lato-regular 14;
+    text-color: $ps-primary_60;
+}
+UILabel.activity_next {
+    font: $lato-regular 22;
+    text-color: $ps-black_40;
+}
+UILabel.activity_soon {
+    font: $lato-regular 22;
+    text-color: $ps-black_90;
+}
+UILabel.alert_button {
+    font: $lato-regular 17;
+    text-color: $ps-secondary;
+}
+UILabel.alert_button_bold {
+    font: $lato-medium 17;
+    text-color: $ps-secondary;
+}
+UILabel.alert_copy {
+    font: $lato-regular 14;
+    text-color: $ps-black_90;
+}
+UILabel.alert_copy_link {
+    font: $lato-regular 14;
+    text-color: $ps-secondary;
+}
+UILabel.alert_header {
+    font: $lato-medium 17;
+    text-color: $ps-black_90;
+}
+UILabel.alert_header_primary {
+    font: $lato-medium 17;
+    text-color: $ps-primary;
+}
+UILabel.alert_welcome {
+    font: $lato-thin 42;
+    text-color: $ps-primary;
+}
+UILabel.badge {
+    font: $lato-medium 14;
+    text-color: $ps-white;
+}
+UILabel.body_1 {
+    font: $lato-regular 12;
+    text-color: $ps-black_60;
+}
+UILabel.body_1_iphone {
+    font: $lato-regular 10;
+    text-color: $ps-black_60;
+}
+UILabel.body_1_light {
+    font: $lato-regular 12;
+    text-color: $ps-white;
+}
+UILabel.body_1_light_iphone {
+    font: $lato-regular 10;
+    text-color: $ps-white;
+}
+UILabel.body_2 {
+    font: $lato-regular 14;
+    text-color: $ps-black_40;
+}
+UILabel.body_2_dark {
+    font: $lato-regular 14;
+    text-color: $ps-black_90;
+}
+^UILabel.body_2_dark_iphone {
+    font: $lato-regular 12;
+    text-color: $ps-black_90;
+}
+^UILabel.body_2_dark_bold_iphone {
+    font: $lato-bold 12;
+    text-color: $ps-black_90;
+}
+ScrollingLabel.body_2_miniplayer {
+    font: $lato-regular 14;
+    text-color: $ps-white;
+}
+ScrollingLabel.body_2_miniplayer_iphone {
+    font: $lato-regular 12;
+    text-color: $ps-white;
+}
+UILabel.body_2_primary {
+    font: $lato-regular 14;
+    text-color: $ps-primary;
+}
+UILabel.body_2_primary_iphone {
+    font: $lato-regular 12;
+    text-color: $ps-primary;
+}
+UILabel.body_bold_light {
+    font: $lato-bold 14;
+    text-color: $ps-white;
+}
+UILabel.body_bold_primary {
+    font: $lato-bold 14;
+    text-color: $ps-white;
+}
+UILabel.body_dark {
+    font: $lato-regular 12;
+    text-color: $ps-black_90;
+}
+UILabel.body_light {
+    font: $lato-regular 14;
+    text-color: $ps-black_90;
+}
+UILabel.body_light_iphone {
+    font: $lato-regular 12;
+    text-color: $ps-black_90;
+}
+UILabel.button_active {
+    font: $lato-regular 14;
+    text-color: $ps-white;
+}
+UILabel.button_inactive {
+    font: $lato-regular 14;
+    text-color: $ps-primary_inactive_text;
+}
+UILabel.button_outline {
+    font: $lato-regular 14;
+    text-color: $ps-black_50;
+}
+UILabel.entertainment_category_header {
+    font: $lato-medium 18;
+    text-color: $ps-black_90;
+}
+UILabel.entertainment_category_header_iphone {
+    font: $lato-medium 16;
+    text-color: $ps-black_90;
+}
+UILabel.entertainment_detail_audio {
+    font: $lato-regular 16;
+    text-color: $ps-black_90;
+}
+UILabel.entertainment_detail_audio_iphone {
+    font: $lato-regular 14;
+    text-color: $ps-black_90;
+}
+UILabel.entertainment_detail_audio_primary {
+    font: $lato-regular 16;
+    text-color: $ps-secondary;
+}
+UILabel.entertainment_detail_audio_primary_iphone {
+    font: $lato-regular 14;
+    text-color: $ps-secondary;
+}
+UILabel.entertainment_detail_header_1 {
+    font: $lato-light 34;
+    text-color: $ps-black_90;
+}
+UILabel.entertainment_detail_header_1_iphone {
+    font: $lato-medium 16;
+    text-color: $ps-black_90;
+}
+^UILabel.entertainment_detail_header_2 {
+    font: $lato-medium 18;
+    text-color: $ps-black_90;
+}
+UILabel.entertainment_detail_link {
+    font: $lato-regular 18;
+    text-color: $ps-secondary;
+}
+UILabel.entertainment_detail_subheader_1 {
+    font: $lato-regular 20;
+    text-color: $ps-black_90;
+}
+UILabel.entertainment_detail_subheader_1_iphone {
+    font: $lato-regular 14;
+    text-color: $ps-black_90;
+}
+UILabel.entertainment_detail_subheader_1_primary {
+    font: $lato-regular 20;
+    text-color: $ps-primary;
+}
+^UILabel.entertainment_detail_subheader_2 {
+    font: $lato-regular 16;
+    text-color: $ps-black_50;
+}
+^UILabel.entertainment_detail_subheader_2_iphone {
+    font: $lato-regular 12;
+    text-color: $ps-black_50;
+}
+^UILabel.entertainment_rating_label {
+    font: $lato-regular 16;
+    text-color: $ps-black_90;
+}
+^UILabel.entertainment_rating_label_iphone {
+    font: $lato-regular 12;
+    text-color: $ps-black_90;
+}
+UILabel.featured {
+    font: $lato-regular 36;
+    text-color: $ps-white;
+}
+UILabel.featured_iphone {
+    font: $lato-regular 18;
+    text-color: $ps-white;
+}
+UILabel.flight_tracker_description {
+    font: $lato-medium 14;
+    text-color: $ps-black_90;
+}
+UILabel.flight_tracker_description_iphone {
+    font: $lato-medium 10;
+    text-color: $ps-black_90;
+}
+UILabel.flight_tracker_large {
+    font: $lato-regular 34;
+    text-color: $ps-black_90;
+}
+UILabel.flight_tracker_large_2 {
+    font: $lato-light 43;
+    text-color: $ps-black_90;
+}
+UILabel.flight_tracker_large_iphone {
+    font: $lato-regular 22;
+    text-color: $ps-black_90;
+}
+UILabel.flight_tracker_small {
+    font: $lato-regular 12;
+    text-color: $ps-flight_tracker_text;
+}
+UILabel.flight_tracker_small_primary {
+    font: $lato-regular 12;
+    text-color: $ps-flight_tracker_primary;
+}
+UILabel.flight_tracker_title_2 {
+    font: $lato-light 14;
+    text-color: $ps-black_90;
+}
+UILabel.flight_tracker_title_bold_2 {
+    font: $lato-bold 14;
+    text-color: $ps-black_90;
+}
+UILabel.header_1 {
+    font: $lato-medium 14;
+    text-color: $ps-black_90;
+}
+UILabel.header_1_light {
+    font: $lato-medium 14;
+    text-color: $ps-white;
+}
+UILabel.header_1_dark {
+    font: $lato-medium 14;
+    text-color: $ps-black_90;
+}
+UILabel.header_1_dark_iphone {
+    font: $lato-medium 12;
+    text-color: $ps-black_90;
+}
+UILabel.header_1_iphone {
+    font: $lato-medium 12;
+    text-color: $ps-black_90;
+}
+UILabel.header_1_iphone_light {
+    font: $lato-medium 12;
+    text-color: $ps-white;
+}
+ScrollingLabel.header_1_miniplayer {
+    font: $lato-medium 16;
+    text-color: $ps-white;
+}
+ScrollingLabel.header_1_miniplayer_iphone {
+    font: $lato-medium 14;
+    text-color: $ps-white;
+}
+UILabel.hint {
+    font: $lato-regular 14;
+    text-color: $ps-black_40;
+}
+UILabel.hint_optional {
+    font: $lato-italic 14;
+    text-color: $ps-black_40;
+}
+UILabel.intro_text {
+    font: $lato-regular 16;
+    text-color: $ps-white;
+}
+UILabel.intro_header {
+    font: $lato-bold 16;
+    text-color: $ps-white;
+}
+UILabel.kids_categories {
+    font: $lato-regular 26;
+    text-color: $ps-white;
+}
+UILabel.kids_categories_iphone {
+    font: $lato-regular 18;
+    text-color: $ps-white;
+}
+UILabel.kids_body_1 {
+    font: $lato-regular 12;
+    text-color: $ps-white;
+}
+UILabel.kids_body_1_iphone {
+    font: $lato-regular 10;
+    text-color: $ps-white;
+}
+UILabel.kids_header_1 {
+    font: $lato-medium 14;
+    text-color: $ps-white;
+}
+UILabel.kids_header_1_iphone {
+    font: $lato-medium 12;
+    text-color: $ps-white;
+}
+UILabel.live_description {
+    font: $lato-regular 14;
+    text-color: $ps-black_40;
+}
+UILabel.live_description_inactive {
+    font: $lato-regular 14;
+    text-color: $ps-black_60;
+}
+UILabel.live_header {
+    font: $lato-regular 20;
+    text-color: $ps-live_highlight;
+}
+UILabel.live_header_inactive {
+    font: $lato-regular 20;
+    text-color: $ps-black_40;
+}
+UILabel.live_subheader {
+    font: $lato-regular 12;
+    text-color: $ps-black_50;
+}
+UILabel.live_subheader_primary {
+    font: $lato-bold 12;
+    text-color: $ps-primary;
+}
+UILabel.live_tracking {
+    font: $lato-regular 12;
+    text-color: $ps-white;
+}
+UILabel.live_watching {
+    font: $lato-regular 12;
+    text-color: $ps-white;
+}
+UILabel.miniplayer_copy {
+    font: $lato-regular 12;
+    text-color: $ps-white;
+}
+UILabel.nav_bar_button {
+    font: $lato-regular 17;
+    text-color: $ps-white;
+}
+UILabel.nav_bar_button_done {
+    font: $lato-medium 17;
+    text-color: $ps-primary;
+}
+UILabel.nav_text_exit {
+    font: $lato-regular 16;
+    text-color: $ps-black_90;
+}
+UILabel.nav_text_normal {
+    font: $lato-regular 16;
+    text-color: $ps-white;
+}
+UILabel.nav_text_selected {
+    font: $lato-regular 16;
+    text-color: $ps-white;
+}
+UILabel.news_body {
+    font: $lato-regular 18;
+    text-color: $ps-black_90;
+}
+UILabel.news_caption {
+    font: $lato-regular 14;
+    text-color: $ps-black_90;
+}
+UILabel.news_header {
+    font: $lato-bold 12;
+    text-color: $ps-black_90;
+}
+UILabel.news_subheader {
+    font: $lato-regular 14;
+    text-color: $ps-black_50;
+}
+UILabel.pairing_button_header {
+    font: $lato-medium 16;
+    text-color: $ps-white;
+}
+UILabel.pairing_button_subheader {
+    font: $lato-regular 14;
+    text-color: $ps-primary_60;
+}
+UILabel.passcode_numbers_normal {
+    font: $lato-light 36;
+    text-color: $ps-black_90;
+}
+UILabel.passcode_numbers_normal_iphone {
+    font: $lato-regular 28;
+    text-color: $ps-black_90;
+}
+UILabel.passcode_numbers_primary {
+    font: $lato-light 36;
+    text-color: $ps-primary;
+}
+UILabel.passcode_numbers_primary_iphone {
+    font: $lato-regular 28;
+    text-color: $ps-primary;
+}
+UILabel.passcode_numbers_selected {
+    font: $lato-regular 36;
+    text-color: $ps-white;
+}
+UILabel.passcode_numbers_selected_iphone {
+    font: $lato-regular 28;
+    text-color: $ps-white;
+}
+UILabel.placeholder_body_light {
+    font: $lato-regular 18;
+    text-color: $ps-black_90;
+}
+UILabel.placeholder_body_light_iphone {
+    font: $lato-regular 14;
+    text-color: $ps-black_90;
+}
+UILabel.placeholder_header_light {
+    font: $lato-medium 24;
+    text-color: $ps-black_90;
+}
+UILabel.placeholder_header_light_iphone {
+    font: $lato-medium 18;
+    text-color: $ps-black_90;
+}
+UILabel.placeholder_module_header_light {
+    font: $lato-medium 14;
+    text-color: $ps-black_90;
+}
+UILabel.placeholder_module_header_light_iphone {
+    font: $lato-medium 12;
+    text-color: $ps-black_90;
+}
+UILabel.player_copy_light {
+    font: $lato-regular 12;
+    text-color: $ps-white;
+}
+UILabel.player_flight_tracker_small {
+    font: $lato-regular 12;
+    text-color: $ps-player_flight_tracker_text;
+}
+UILabel.player_top_bar_button {
+    font: $lato-regular 17;
+    text-color: $ps-white;
+}
+UILabel.player_top_header_bar {
+    font: $lato-medium 17;
+    text-color: $ps-black;
+}
+UILabel.qr_copy {
+    font: $lato-regular 14;
+    text-color: $ps-white;
+}
+UILabel.search {
+    font: $lato-regular 14;
+    text-color: $ps-black_90;
+}
+UILabel.search_iphone {
+    font: $lato-regular 14;
+    text-color: $ps-white;
+}
+UILabel.search_copy {
+    font: $lato-regular 14;
+    text-color: $ps-black_50;
+}
+UILabel.search_title {
+    font: $lato-regular 20;
+    text-color: $ps-black_90;
+}
+^UILabel.settings_body {
+    font: $lato-regular 12;
+    text-color: $ps-black_90;
+}
+UILabel.settings_header {
+    font: $lato-medium 16;
+    text-color: $ps-black_90;
+}
+^UILabel.settings_header_dimmed {
+    font: $lato-medium 16;
+    text-color: $ps-black_40;
+}
+UILabel.settings_header_iphone {
+    font: $lato-medium 14;
+    text-color: $ps-black_90;
+}
+UILabel.settings_header_dimmed_iphone {
+    font: $lato-medium 14;
+    text-color: $ps-black_40;
+}
+UILabel.settings_label {
+    font: $lato-regular 14;
+    text-color: $ps-secondary;
+}
+UILabel.settings_username {
+    font: $lato-regular 24;
+    text-color: $ps-black_90;
+}
+UILabel.shopping_bag_action {
+    font: $lato-regular 12;
+    text-color: $ps-secondary;
+}
+UILabel.shopping_bag_amount {
+    font: $lato-bold 12;
+    text-color: $ps-secondary;
+}
+UILabel.shopping_bag_price {
+    font: $lato-bold 16;
+    text-color: $ps-black_90;
+}
+UILabel.shopping_bag_title {
+    font: $lato-regular 16;
+    text-color: $ps-black_90;
+}
+UILabel.shopping_body_1 {
+    font: $lato-bold 12;
+    text-color: $ps-secondary;
+}
+UILabel.shopping_body_1_iphone {
+    font: $lato-bold 10;
+    text-color: $ps-secondary;
+}
+UILabel.shopping_detail_subheader_2 {
+    font: $lato-medium 18;
+    text-color: $ps-secondary;
+}
+UILabel.shopping_detail_subheader_2_iphone {
+    font: $lato-medium 14;
+    text-color: $ps-secondary;
+}
+UILabel.shopping_featured {
+    font: $lato-bold 20;
+    text-color: $ps-white;
+}
+^UILabel. {
+    font: $lato-bold 16;
+    text-color: $ps-white;
+}
+^UILabel.subtitles_body {
+    font: $lato-regular 17;
+    text-color: $ps-black_90;
+}
+UILabel.subtitles_body_disabled {
+    font: $lato-regular 17;
+    text-color: $ps-black_40;
+}
+UILabel.subtitles_header {
+    font: $lato-medium 14;
+    text-color: $ps-black_60;
+}
+UILabel.terms_text {
+    font: $lato-regular 12;
+    text-color: $ps-white;
+}
+UILabel.terms_text_link {
+    font: $lato-medium 12;
+    text-color: $ps-white;
+}
+UILabel.time_remaining {
+    font: $lato-regular 10;
+    text-color: $ps-black_50;
+}
+UILabel.toast_title {
+    font: $lato-bold 14;
+    text-color: $ps-white;
+}
+UILabel.toast_subtitle {
+    font: $lato-regular 14;
+    text-color: $ps-white;
+}
+UILabel.top_bar_button {
+    font: $lato-regular 17;
+    text-color: $ps-secondary;
+}
+UILabel.top_bar_button_done {
+    font: $lato-medium 17;
+    text-color: $ps-secondary;
+}
+UILabel.top_bar_header {
+    font: $lato-medium 17;
+    text-color: $ps-black_90;
+}
+UILabel.top_bar_header_1 {
+    font: $lato-medium 17;
+    text-color: $ps-white;
+}
+UILabel.ttd_large {
+    font: $lato-regular 64;
+    text-color: $ps-primary;
+}
+UILabel.ttd_large_2 {
+    font: $lato-bold 32;
+    text-color: $ps-primary;
+}
+UILabel.ttd_large_iphone {
+    font: $lato-regular 36;
+    text-color: $ps-primary;
+}
+UILabel.ttd_small {
+    font: $lato-regular 10;
+    text-color: $ps-white;
+}
+UILabel.ttd_title {
+    font: $lato-regular 16;
+    text-color: $ps-black_90;
+}
+UILabel.ttd_title_2 {
+    font: $lato-regular 14;
+    text-color: $ps-black_90;
+}
+UILabel.ttd_title_iphone {
+    font: $lato-regular 10;
+    text-color: $ps-black_90;
+}
+UILabel.version_number {
+    font: $lato-regular 12;
+    text-color: $ps-black_50;
+}
+UILabel.weather_text {
+    font: $lato-regular 14;
+    text-color: $ps-black_90;
+}
+UILabel.weather_text_sm {
+    font: $lato-regular 10;
+    text-color: $ps-black_90;
+}
+UILabel.weather_city {
+    font: $lato-bold 32;
+    text-color: $ps-black_90;
+}
+UILabel.weather_city_sm {
+    font: $lato-bold 20;
+    text-color: $ps-black_90;
+}
+UILabel.weather_city_lg {
+    font: $lato-regular 43;
+    text-color: $ps-black_90;
+}
+UILabel.weather_date {
+    font: $lato-regular 14;
+    text-color: $ps-black_90;
+}
+UILabel.weather_high {
+    font: $lato-bold 22;
+    text-color: $ps-black_90;
+}
+UILabel.weather_temp {
+    font: $lato-bold 32;
+    text-color: $ps-black_90;
+}
+UILabel.weather_temp_lg {
+    font: $lato-medium 65;
+    text-color: $ps-black_90;
+}
+UILabel.weather_temp_sm {
+    font: $lato-bold 27;
+    text-color: $ps-black_90;
+}
+UILabel.weather_status {
+    font: $lato-bold 18;
+    text-color: $ps-black_90;
+}
+UILabel.weather_status_lg {
+    font: $lato-regular 28;
+    text-color: $ps-black_90;
+}
+UILabel.weather_status_sm {
+    font: $lato-bold 12;
+    text-color: $ps-black_90;
+}
+
+//////////////////////////////////////////////////////////////
+
+
+
+//////////////////////////////////////////////////////////////
+// UIView styles
+//////////////////////////////////////////////////////////////
+
+UIView.divider_black15 {
+    background-color: $ps-black_15;
+}
+
+UIView.nav_connection_bar {
+    background-color: $ps-nav_connection_bar;
+}
+
+UIView.nav_top_bar {
+    background-color: $ps-nav_top_bar;
+}
+
+UIView.secondary_dark {
+    background-color: $ps-secondary-dark;
+}
+
+UIView.search_icons {
+    background-color: #ffffff;
+}
+
+PasscodeEntryView {
+    forgotPasscodeButton @{
+        titleLabel @{
+            font: $lato-regular 14;
+            text-alignment: center
+        }
+        title-color[state:normal]: $ps-primary;
+    }
+}
+
+
+//////////////////////////////////////////////////////////////
+// UIButton styles
+//////////////////////////////////////////////////////////////
+
+UIButton.alert_button {
+    titleLabel @{
+        font: $lato-regular 17;
+    }
+    title-color[state:normal]: $ps-secondary;
+}
+
+UIButton.alert_button_bold {
+    titleLabel @{
+        font: $lato-medium 17;
+    }
+    title-color[state:normal]: $ps-secondary;
+}
+
+UIButton.alert_copy_link {
+    titleLabel @{
+        font: $lato-regular 14;
+    }
+    title-color[state:normal]: $ps-secondary;
+    title-color[state:disabled]: $ps-black_60;
+    tint-color: $ps-secondary;
+}
+
+UIButton.body_light {
+    titleLabel @{
+        font: $lato-regular 14;
+    }
+    title-color[state:normal]: $ps-black_90;
+}
+
+UIButton.body_light_iphone {
+    titleLabel @{
+        font: $lato-regular 12;
+    }
+    title-color[state:normal]: $ps-black_90;
+}
+
+UIButton.flight_tracker_small {
+    titleLabel @{
+        font: $lato-regular 12;
+    }
+    title-color[state:normal]: $ps-flight_tracker_text;
+}
+
+UIButton.nav_bar_button {
+    titleLabel @{
+        font: $lato-regular 17;
+    }
+    title-color[state:normal]: $ps-white;
+    title-color[state:disabled]: $ps-top_bar_inactive;
+    tint-color: $ps-white;
+}
+
+UIButton.nav_bar_button_done {
+    titleLabel @{
+        font: $lato-medium 17;
+    }
+    title-color[state:normal]: $ps-white;
+    title-color[state:disabled]: $ps-black_60;
+    tint-color: $ps-primary;
+}
+
+
+UIButton.pairing_button_header {
+    titleLabel @{
+        font: $lato-medium 16;
+    }
+    title-color[state:normal]: $ps-white;
+}
+
+KeypadButton.passcode_numbers_normal {
+    titleLabel @{
+        font: $lato-regular 36;
+    }
+    title-color[state:normal]: $ps-black_90;
+    layer @{
+        corner-radius: 37;
+        border-color: $ps-black_15
+        border-width: 1
+    }
+    background-color: $ps-clear;
+}
+
+KeypadButton.passcode_numbers_normal_iphone {
+    titleLabel @{
+        font: $lato-regular 28;
+    }
+    title-color[state:normal]: $ps-black_90;
+    layer @{
+        corner-radius: 30;
+        border-color: $ps-black_15
+        border-width: 1
+    }
+    background-color: $ps-clear;
+}
+
+KeypadButton.passcode_numbers_primary {
+    titleLabel @{
+        font: $lato-regular 36;
+    }
+    title-color[state:normal]: $ps-primary;
+    layer @{
+        corner-radius: 37;
+        border-color: $ps-black_15
+        border-width: 1
+    }
+    background-color: $ps-clear;
+}
+
+KeypadButton.passcode_numbers_primary_iphone {
+    titleLabel @{
+        font: $lato-regular 28;
+    }
+    title-color[state:normal]: $ps-primary;
+    layer @{
+        corner-radius: 30;
+        border-color: $ps-black_15
+        border-width: 1
+    }
+    background-color: $ps-clear;
+}
+
+KeypadButton.passcode_numbers_selected {
+    titleLabel @{
+        font: $lato-regular 36;
+    }
+    title-color[state:normal]: $ps-white;
+    layer @{
+        corner-radius: 37;
+        border-color: $ps-black_15
+        border-width: 1
+    }
+    background-color: $ps-primary;
+}
+
+KeypadButton.passcode_numbers_selected_iphone {
+    titleLabel @{
+        font: $lato-regular 28;
+    }
+    title-color[state:normal]: $ps-white;
+    layer @{
+        corner-radius: 30;
+        border-color: $ps-black_15
+        border-width: 1
+    }
+    background-color: $ps-primary;
+}
+
+UIButton.shopping_bag_action {
+    titleLabel @{
+        font: $lato-regular 12;
+    }
+    title-color[state:normal]: $ps-secondary;
+}
+
+UIButton.terms_text_link {
+    titleLabel @{
+        font: $lato-medium 12;
+    }
+    title-color[state:normal]: $ps-white;
+    title-text-attributes: @{
+        underline-style: single;
+    }
+}
+
+UIButton.top_bar_button {
+    titleLabel @{
+        font: $lato-regular 17;
+    }
+    title-color[state:normal]: $ps-primary;
+    title-color[state:disabled]: $ps-top_bar_inactive;
+    tint-color: $ps-primary;
+}
+
+UIButton.top_bar_button_done {
+    titleLabel @{
+        font: $lato-medium 17;
+    }
+    title-color[state:normal]: $ps-primary;
+    title-color[state:disabled]: $ps-black_60;
+    tint-color: $ps-primary;
+}
+
+UIButton.top_bar_header {
+    titleLabel @{
+        font: $lato-medium 17;
+        text-alignment: center;
+    }
+    title-color[state:normal]: $ps-black_90;
+    tint-color: $ps-primary;
+}
+
+NavigationBarTitleButton.top_bar_header {
+    titleLabel @{
+        font: $lato-medium 17;
+        text-alignment: center;
+    }
+    title-color[state:normal]: $ps-black_90;
+    tint-color: $ps-primary;
+}
+
+UIButton.top_bar_header_1 {
+    titleLabel @{
+        font: $lato-medium 17;
+        text-alignment: center;
+    }
+    title-color[state:normal]: $ps-white;
+    tint-color: $ps-primary;
+}
+
+NavigationBarTitleButton.top_bar_header_1 {
+    titleLabel @{
+        font: $lato-bold 17;
+        text-alignment: center;
+    }
+    title-color[state:normal]: $ps-white;
+    tint-color: $ps-primary;
+}
+
+//////////////////////////////////////////////////////////////
+// Misc button styles
+//////////////////////////////////////////////////////////////
+
+PSPrimaryButton.primary_button {
+    titleLabel @{
+        font: $lato-regular 14;
+    }
+
+    background-color: $ps-primary;
+    title-color[state:disabled]: $ps-white;
+    title-color[state:normal]: $ps-white;
+    layer @{
+        corner-radius: 5;
+    }
+}
+
+PSSecondaryButton.secondary_button_outline {
+    titleLabel @{
+        font: $lato-regular 14;
+    }
+
+    background-color: $ps-clear;
+    title-color[state:disabled]: $ps-black_50;
+    title-color[state:normal]: $ps-black_50;
+    layer @{
+        corner-radius: 5;
+        border-width: 1;
+        border-color: $ps-black_50;
+    }
+}
+
+PSSecondaryButton.secondary_button {
+    titleLabel @{
+        font: $lato-regular 14;
+    }
+
+    background-color: $ps-black_50;
+    title-color[state:disabled]: $ps-white;
+    title-color[state:normal]: $ps-white;
+    layer @{
+        corner-radius: 5;
+    }
+}
+
+UIButton.top_bar_icons {
+    titleLabel @{
+        font: $lato-regular 17;
+    }
+    title-color[state:normal]: $ps-top_bar_icons;
+    title-color[state:disabled]: $ps-black_60;
+    tint-color: $ps-primary;
+}
+
+KeypadButton.passcode_numbers_backspace {
+    tint-color: $ps-black_90;
+    background-color: $ps-clear;
+}
+
+
+//////////////////////////////////////////////////////////////
+// PSStyledAlertView
+//////////////////////////////////////////////////////////////
+
+PSStyledAlertView {
+    titleLabel @{
+        font: $lato-bold 22;
+        text-color: $ps-black_90;
+    }
+    messageLabel @{
+        font: $lato-regular 14;
+        text-color: $ps-black_90;
+    }
+}
+
+
+//////////////////////////////////////////////////////////////
+// UITextField styles
+//////////////////////////////////////////////////////////////
+UITextField.hint {
+    font: $lato-regular 14;
+    text-color: $ps-black_40;
+}
+UITextField.hint_optional {
+    font: $lato-italic 14;
+    text-color: $ps-black_40;
+}
+UITextField.intro_text {
+    font: $lato-regular 16;
+    text-color: $ps-white;
+}
+UITextField.intro_header {
+    font: $lato-bold 16;
+    text-color: $ps-white;
+}
+UITextField.kids_categories {
+    font: $lato-regular 26;
+    text-color: $ps-white;
+}
+UITextField.kids_categories_iphone {
+    font: $lato-regular 18;
+    text-color: $ps-white;
+}
+UITextField.kids_body_1 {
+    font: $lato-regular 12;
+    text-color: $ps-white;
+}
+UITextField.kids_body_1_iphone {
+    font: $lato-regular 10;
+    text-color: $ps-white;
+}
+UITextField.kids_header_1 {
+    font: $lato-medium 14;
+    text-color: $ps-white;
+}
+UITextField.kids_header_1_iphone {
+    font: $lato-medium 12;
+    text-color: $ps-white;
+}
+UITextField.live_description {
+    font: $lato-regular 14;
+    text-color: $ps-black_40;
+}
+UITextField.live_description_inactive {
+    font: $lato-regular 14;
+    text-color: $ps-black_60;
+}
+UITextField.live_header {
+    font: $lato-regular 20;
+    text-color: $ps-live_highlight;
+}
+UITextField.entertainment_detail_audio {
+    font: $lato-regular 20;
+    text-color: $ps-black_40;
+}
+

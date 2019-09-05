@@ -1,0 +1,6 @@
+framework module PACAdvertising {
+  umbrella header "PACAdvertising.h"
+
+  export *
+  module * { export * }
+}

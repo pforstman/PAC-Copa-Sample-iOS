@@ -1,0 +1,6 @@
+framework module PACUser {
+  umbrella header "PACUser.h"
+
+  export *
+  module * { export * }
+}

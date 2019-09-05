@@ -1,0 +1,6 @@
+framework module PACEXTV {
+  umbrella header "PACEXTV.h"
+
+  export *
+  module * { export * }
+}

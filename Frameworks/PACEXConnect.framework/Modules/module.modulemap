@@ -1,0 +1,6 @@
+framework module PACEXConnect {
+  umbrella header "PACEXConnect.h"
+
+  export *
+  module * { export * }
+}

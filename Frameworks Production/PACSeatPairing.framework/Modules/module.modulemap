@@ -1,0 +1,6 @@
+framework module PACSeatPairing {
+  umbrella header "PACSeatPairing.h"
+
+  export *
+  module * { export * }
+}

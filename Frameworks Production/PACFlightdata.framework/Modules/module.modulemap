@@ -1,0 +1,6 @@
+framework module PACFlightdata {
+  umbrella header "PACFlightdata.h"
+
+  export *
+  module * { export * }
+}

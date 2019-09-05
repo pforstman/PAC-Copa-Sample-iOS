@@ -1,0 +1,6 @@
+framework module PACStreaming {
+  umbrella header "PACStreaming.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1991 @@
+{
+    "modules": [
+        {
+            "class_name": "LoginModule",
+            "config": {
+				"target_identifier": "loginModule",
+				"analytics_screen_name": "Login",
+            },
+            "identifier": "loginModule"
+        },
+        {
+            "class_name": "IntroModule",
+            "config": {
+				"target_identifier": "introModule",
+				"analytics_screen_name": "Intro",
+            },
+            "identifier": "introModule"
+        },
+        {
+            "class_name": "MainMiniPlayerModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Main",
+                        "module_identifier": "mainModule"
+                    }
+                ],
+                "target_identifier": "miniAppFullModule",
+                "mini_app_menu_enabled": true
+            },
+            "identifier": "miniAppFullModule"
+        },
+        {
+            "class_name": "MainMiniPlayerModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Main",
+                        "module_identifier": "extendedHomeModule",
+                        "use_navigation": true
+                    }
+                ],
+                "target_identifier": "miniAppFeaturedModule"
+            },
+            "identifier": "miniAppFeaturedModule"
+        },
+        {
+            "class_name": "MainMiniPlayerModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Main",
+                        "module_identifier": "kidsZoneModule",
+                        "use_navigation": true
+                    }
+                ],
+                "target_identifier": "miniAppKidsModule"
+            },
+            "identifier": "miniAppKidsModule"
+        },
+        {
+            "class_name": "MainMiniPlayerModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Main",
+                        "module_identifier": "favoritesModule",
+                        "use_navigation": true
+                    }
+                ],
+                "target_identifier": "miniAppFavoritesModule"
+            },
+            "identifier": "miniAppFavoritesModule"
+        },
+        {
+            "class_name": "MainMiniPlayerModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Main",
+                        "module_identifier": "moviesEntertainmentModule",
+                        "use_navigation": true
+                    }
+                ],
+                "target_identifier": "miniAppMoviesModule"
+            },
+            "identifier": "miniAppMoviesModule"
+        },
+        {
+            "class_name": "MainMiniPlayerModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Main",
+                        "module_identifier": "tvEntertainmentModule",
+                        "use_navigation": true
+                    }
+                ],
+                "target_identifier": "miniAppTVModule"
+            },
+            "identifier": "miniAppTVModule"
+        },
+        {
+            "class_name": "MainMiniPlayerModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Main",
+                        "module_identifier": "musicEntertainmentModule",
+                        "use_navigation": true
+                    }
+                ],
+                "target_identifier": "miniAppMusicModule"
+            },
+            "identifier": "miniAppMusicModule"
+        },
+        {
+            "class_name": "MainMiniPlayerModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Main",
+                        "module_identifier": "radioEntertainmentModule",
+                        "use_navigation": true
+                    }
+                ],
+                "target_identifier": "miniAppRadioModule"
+            },
+            "identifier": "miniAppRadioModule"
+        },
+        {
+            "class_name": "MainMiniPlayerModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Main",
+                        "module_identifier": "audioBooksEntertainmentModule",
+                        "use_navigation": true
+                    }
+                ],
+                "target_identifier": "miniAppAudiobooksModule"
+            },
+            "identifier": "miniAppAudiobooksModule"
+        },
+        {
+            "class_name": "MainMiniPlayerModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Main",
+                        "module_identifier": "gamesModule",
+                        "use_navigation": true
+                    }
+                ],
+                "target_identifier": "miniAppGamesModule"
+            },
+            "identifier": "miniAppGamesModule"
+        },
+        {
+            "class_name": "MainMiniPlayerModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Main",
+                        "module_identifier": "videoPlaylistFullscreenModule",
+                        "use_navigation": true
+                    }
+                ],
+                "target_identifier": "miniAppVideoPlaylistModule"
+            },
+            "identifier": "miniAppVideoPlaylistModule"
+        },
+        {
+            "class_name": "MainMiniPlayerModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Main",
+                        "module_identifier": "myMusicModule",
+                        "use_navigation": true
+                    }
+                ],
+                "target_identifier": "miniAppMusicPlaylistModule"
+            },
+            "identifier": "miniAppMusicPlaylistModule"
+        },
+        {
+            "class_name": "MainMiniPlayerModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Main",
+                        "module_identifier": "mapsModule",
+                        "use_navigation": true
+                    }
+                ],
+                "target_identifier": "miniAppMapsModule"
+            },
+            "identifier": "miniAppMapsModule"
+        },
+        {
+            "class_name": "MainMiniPlayerModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Main",
+                        "module_identifier": "liveTVModule2",
+                        "use_navigation": true
+                    }
+                ],
+                "target_identifier": "miniAppLiveTVModule"
+            },
+            "identifier": "miniAppLiveTVModule"
+        },
+        {
+            "class_name": "MainMiniPlayerModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Main",
+                        "module_identifier": "newsModule",
+                        "use_navigation": true
+                    }
+                ],
+                "target_identifier": "miniAppNewsModule"
+            },
+            "identifier": "miniAppNewsModule"
+        },
+        {
+            "class_name": "MainMiniPlayerModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Main",
+                        "module_identifier": "weatherModule",
+                        "use_navigation": true
+                    }
+                ],
+                "target_identifier": "miniAppWeatherModule"
+            },
+            "identifier": "miniAppWeatherModule"
+        },
+        {
+            "class_name": "MainMiniPlayerModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Main",
+                        "module_identifier": "shoppingCatalogsModule",
+                        "alternate_module_identifier": "shoppingCategoriesModule",
+                        "use_navigation": true
+                    }
+                ],
+                "target_identifier": "miniAppShoppingModule"
+            },
+            "identifier": "miniAppShoppingModule"
+        },
+        {
+            "class_name": "MainMiniPlayerModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Main",
+                        "module_identifier": "parentalControlsModule",
+                        "use_navigation": true
+                    }
+                ],
+                "target_identifier": "miniAppParentalControlsModule"
+            },
+            "identifier": "miniAppParentalControlsModule"
+        },
+        {
+            "class_name": "MainMiniPlayerModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Main",
+                        "module_identifier": "mainModule"
+                    }
+                ],
+                "target_identifier": "mainMiniPlayerModule"
+            },
+            "identifier": "mainMiniPlayerModule"
+        },
+        {
+            "class_name": "None",
+            "config": {
+                "target_identifier": "miniPlayerVideoMinModule",
+				"analytics_screen_name": "Mini Player Video Min"
+            },
+            "identifier": "miniPlayerVideoMinModule"
+        },
+        {
+            "class_name": "None",
+            "config": {
+                "target_identifier": "miniPlayerVideoMaxModule",
+				"analytics_screen_name": "Mini Player Video Max"
+            },
+            "identifier": "miniPlayerVideoMaxModule"
+        },
+        {
+            "class_name": "None",
+            "config": {
+                "target_identifier": "miniPlayerAudioMinModule",
+				"analytics_screen_name": "Mini Player Audio Min"
+            },
+            "identifier": "miniPlayerAudioMinModule"
+        },
+        {
+            "class_name": "None",
+            "config": {
+                "target_identifier": "miniPlayerAudioMaxModule",
+				"analytics_screen_name": "Mini Player Audio Max"
+            },
+            "identifier": "miniPlayerAudioMaxModule"
+        },
+        {
+            "class_name": "ExtendedHomeModule",
+            "config": {
+                "subviews": [
+                    {
+                    	"className": "ConfigurableCarouselView",
+                    	"dataSource": "HomeCarouselDataSource",
+		       			"category_root_type": "showcase",
+                    	"cellNibName": "HomeCarouselCollectionViewCell",
+                    	"adjustPositionForMiniPlayer": false,
+						"target_identifier": "extendedHomeModule"
+                    }
+                ],
+                "contains_dynamic_content": true,
+                "category_root_type": "featured",
+                "contentHeight_iPhone": "1000",
+				"target_identifier": "extendedHomeModule",
+				"analytics_screen_name": "Home",
+                "ad_zone_x": "b_app_home"
+            },
+            "identifier": "extendedHomeModule"
+        },
+        {
+            "class_name": "KidsZoneModule",
+            "config": {
+                "subviews": [
+                    {
+                    	"className": "ConfigurableCarouselView",
+                    	"dataSource": "KidsZoneCarouselDataSource",
+                        "category_root_type": "kids_showcase",
+                    	"cellNibName": "HomeCarouselCollectionViewCell",
+                    	"adjustPositionForMiniPlayer": false
+                    },
+                    {
+                    	"className": "ConfigurableButtonView",
+                    	"button_image": "KidsMovies",
+                    	"button_title": "Movies",
+                        "category_root_type": "kids_movies",
+                    	"selection_module_identifier": "kidsZoneMoviesModule",
+		                "background_tiled_image": "bg-kids-zone",
+                    	"adjustPositionForMiniPlayer": false
+                    },
+                    {
+                    	"className": "ConfigurableButtonView",
+                    	"button_image": "KidsTVShows",
+                    	"button_title": "kids.TV",
+                        "category_root_type": "kids_tv",
+                    	"selection_module_identifier": "kidsZoneTVModule",
+		                "background_tiled_image": "bg-kids-zone",
+                    	"adjustPositionForMiniPlayer": false
+                    },
+                    {
+                    	"className": "ConfigurableButtonView",
+                    	"button_image": "KidsMusic",
+                    	"button_title": "Music",
+                        "category_root_type": "kids_music",
+                    	"selection_module_identifier": "kidsZoneMusicModule",
+		                "background_tiled_image": "bg-kids-zone",
+                    	"adjustPositionForMiniPlayer": false
+                    }
+                ],
+                "contains_dynamic_content": true,
+                "category_root_type": "kids_featured",
+                "module_title": "Kids",
+                "alternate_plane_icon": "Rocket",
+                "contentHeight_iPhone": "1000",
+                "background_tiled_image": "bg-kids-zone",
+				"target_identifier": "kidsZoneModule",
+				"alternate_selection_target_movie": "kidsZoneMoviesOverlayModule",
+				"alternate_selection_target_tv": "kidsZoneTVOverlayModule",
+				"alternate_selection_target_music": "kidsZoneMusicOverlayModule"
+            },
+            "identifier": "kidsZoneModule"
+        },
+        {
+            "class_name": "KidsZoneMoviesModule",
+            "config": {
+                "data_provider_identifier": "moviesDataProvider",
+            	"category_root_type": "kids_movies",
+                "selection_module_identifier": "kidsZoneMoviesOverlayModule",
+                "target_identifier": "kidsZoneMoviesModule",
+                "background_tiled_image": "bg-kids-zone",
+                "layout_override": {
+                	"edgeInsetsVideoiPadLandscape": "{30, 30, 10, 30}",
+                	"edgeInsetsMusiciPadLandscape": "{30, 66, 10, 65}",
+                	"edgeInsetsVideoiPadPortrait": "{30, 65, 10, 65}",
+                	"edgeInsetsMusiciPadPortrait": "{35, 20, 10, 20}",
+                	"edgeInsetsVideoiPhonePortrait": "{10, 10, 10, 10}",
+                	"edgeInsetsMusiciPhonePortrait": "{10, 10, 10, 10}",
+                	
+                	"regularItemSizeVideoiPadLandscape": "{300, 496}",
+                	"regularItemSizeMusiciPadLandscape": "{300, 346}",
+                	"regularItemSizeVideoiPadPortrait": "{300, 496}",
+                	"regularItemSizeMusiciPadPortrait": "{300, 346}",
+                	"regularItemSizeVideoiPhonePortrait": "{144, 264}",
+                	"regularItemSizeMusiciPhonePortrait": "{144, 192}",
+                	
+                	"featuredItemSizeVideoiPadLandscape": "{300, 496}",
+                	"featuredItemSizeMusiciPadLandscape": "{300}",
+                	"featuredItemSizeVideoiPadPortrait": "{300, 496}",
+                	"featuredItemSizeMusiciPadPortrait": "{300, 346}",
+                	"featuredItemSizeVideoiPhonePortrait": "{144, 264}",
+                	"featuredItemSizeMusiciPhonePortrait": "{144, 192}",
+
+                	"itemSpacingVideoiPadLandscape": "4",
+                	"itemSpacingMusiciPadLandscape": "4",
+                	"itemSpacingVideoiPadPortrait": "4",
+                	"itemSpacingMusiciPadPortrait": "4",
+                	"itemSpacingVideoiPhonePortrait": "-8",
+                	"itemSpacingMusiciPhonePortrait": "10",
+                	
+                	"numberOfColumnsVideoiPadLandscape": "3",
+                	"numberOfColumnsMusiciPadLandscape": "3",
+                	"numberOfColumnsVideoiPadPortrait": "2",
+                	"numberOfColumnsMusiciPadPortrait": "2",
+                	"numberOfColumnsVideoiPhonePortrait": "2",
+                	"numberOfColumnsMusiciPhonePortrait": "2",
+                	
+                	"usesFeaturedSpot": false
+                }
+            },
+            "identifier": "kidsZoneMoviesModule"
+        },
+        {
+            "class_name": "KidsZoneTVModule",
+            "config": {
+                "data_provider_identifier": "tvDataProvider",
+            	"category_root_type": "kids_tv",
+                "selection_module_identifier": "kidsZoneTVOverlayModule",
+                "target_identifier": "KidsZoneTVModule",
+                "background_tiled_image": "bg-kids-zone",
+                "layout_override": {
+                	"edgeInsetsVideoiPadLandscape": "{30, 30, 10, 30}",
+                	"edgeInsetsMusiciPadLandscape": "{30, 66, 10, 65}",
+                	"edgeInsetsVideoiPadPortrait": "{30, 65, 10, 65}",
+                	"edgeInsetsMusiciPadPortrait": "{35, 20, 10, 20}",
+                	"edgeInsetsVideoiPhonePortrait": "{10, 10, 10, 10}",
+                	"edgeInsetsMusiciPhonePortrait": "{10, 10, 10, 10}",
+                	
+                	"regularItemSizeVideoiPadLandscape": "{300, 496}",
+                	"regularItemSizeMusiciPadLandscape": "{300, 346}",
+                	"regularItemSizeVideoiPadPortrait": "{300, 496}",
+                	"regularItemSizeMusiciPadPortrait": "{300, 346}",
+                	"regularItemSizeVideoiPhonePortrait": "{144, 264}",
+                	"regularItemSizeMusiciPhonePortrait": "{144, 192}",
+                	
+                	"featuredItemSizeVideoiPadLandscape": "{300, 496}",
+                	"featuredItemSizeMusiciPadLandscape": "{300}",
+                	"featuredItemSizeVideoiPadPortrait": "{300, 496}",
+                	"featuredItemSizeMusiciPadPortrait": "{300, 346}",
+                	"featuredItemSizeVideoiPhonePortrait": "{144, 264}",
+                	"featuredItemSizeMusiciPhonePortrait": "{144, 192}",
+                	
+                	"itemSpacingVideoiPadLandscape": "4",
+                	"itemSpacingMusiciPadLandscape": "4",
+                	"itemSpacingVideoiPadPortrait": "4",
+                	"itemSpacingMusiciPadPortrait": "4",
+                	"itemSpacingVideoiPhonePortrait": "10",
+                	"itemSpacingMusiciPhonePortrait": "10",
+                	
+                	"numberOfColumnsVideoiPadLandscape": "3",
+                	"numberOfColumnsMusiciPadLandscape": "3",
+                	"numberOfColumnsVideoiPadPortrait": "2",
+                	"numberOfColumnsMusiciPadPortrait": "2",
+                	"numberOfColumnsVideoiPhonePortrait": "2",
+                	"numberOfColumnsMusiciPhonePortrait": "2",
+                	
+                	"usesFeaturedSpot": false
+                }
+            },
+            "identifier": "kidsZoneTVModule"
+        },
+        {
+            "class_name": "KidsZoneMusicModule",
+            "config": {
+                "data_provider_identifier": "musicDataProvider",
+            	"category_root_type": "kids_music",
+                "selection_module_identifier": "kidsZoneMusicOverlayModule",
+                "target_identifier": "kidsZoneMusicModule",
+                "background_tiled_image": "bg-kids-zone",
+                "layout_override": {
+                	"edgeInsetsVideoiPadLandscape": "{30, 30, 10, 30}",
+                	"edgeInsetsMusiciPadLandscape": "{30, 30, 10, 30}",
+                	"edgeInsetsVideoiPadPortrait": "{30, 65, 10, 65}",
+                	"edgeInsetsMusiciPadPortrait": "{30, 65, 10, 65}",
+                	"edgeInsetsVideoiPhonePortrait": "{10, 10, 10, 10}",
+                	"edgeInsetsMusiciPhonePortrait": "{10, 10, 10, 10}",
+                	
+                	"regularItemSizeVideoiPadLandscape": "{300, 496}",
+                	"regularItemSizeMusiciPadLandscape": "{300, 342}",
+                	"regularItemSizeVideoiPadPortrait": "{300, 496}",
+                	"regularItemSizeMusiciPadPortrait": "{300, 342}",
+                	"regularItemSizeVideoiPhonePortrait": "{144, 264}",
+                	"regularItemSizeMusiciPhonePortrait": "{145, 193}",
+                	
+                	"featuredItemSizeVideoiPadLandscape": "{300, 496}",
+                	"featuredItemSizeMusiciPadLandscape": "{300, 342}",
+                	"featuredItemSizeVideoiPadPortrait": "{300, 496}",
+                	"featuredItemSizeMusiciPadPortrait": "{300, 342}",
+                	"featuredItemSizeVideoiPhonePortrait": "{144, 264}",
+                	"featuredItemSizeMusiciPhonePortrait": "{145, 193}",
+                	
+                	"itemSpacingVideoiPadLandscape": "4",
+                	"itemSpacingMusiciPadLandscape": "4",
+                	"itemSpacingVideoiPadPortrait": "4",
+                	"itemSpacingMusiciPadPortrait": "4",
+                	"itemSpacingVideoiPhonePortrait": "10",
+                	"itemSpacingMusiciPhonePortrait": "10",
+                	
+                	"numberOfColumnsVideoiPadLandscape": "3",
+                	"numberOfColumnsMusiciPadLandscape": "3",
+                	"numberOfColumnsVideoiPadPortrait": "2",
+                	"numberOfColumnsMusiciPadPortrait": "2",
+                	"numberOfColumnsVideoiPhonePortrait": "2",
+                	"numberOfColumnsMusiciPhonePortrait": "2",
+                	
+                	"usesFeaturedSpot": false
+                }
+            },
+            "identifier": "kidsZoneMusicModule"
+        },
+        {
+            "class_name": "FavoritesModule",
+            "config": {
+                "subitems": [
+                    {
+                        "menu_title": "Movies",
+                        "is_active": true,
+                        "module_identifier": "movieFavoritesModule",
+                        "media_template_id": "movie",
+                		"row_height_ipad": 311,
+                		"row_height_iphone": 228,
+                		"cell_class_name" : "MediaCollectionViewCell",
+                		"data_source": "MovieFavoritesDataSource"
+                    },
+                    {
+                        "menu_title": "TV Programs",
+                        "is_active": true,
+                        "module_identifier": "tvFavoritesModule",
+                        "media_template_id": "tv",
+                		"row_height_ipad": 310,
+                		"row_height_iphone": 228,
+                		"cell_class_name" : "MediaCollectionViewCell",
+                		"data_source": "TVShowFavoritesDataSource"
+                    },
+                    {
+                        "menu_title": "TV Episodes",
+                        "is_active": true,
+                        "module_identifier": "tvEpisodeFavoritesModule",
+                        "media_template_id": "tvepisode",
+                        "row_height_ipad": 310,
+                        "row_height_iphone": 228,
+                        "cell_class_name" : "MediaCollectionViewCell",
+                        "data_source": "TVEpisodeShowFavoritesDataSource"
+                     },
+                    {
+                        "menu_title": "Music",
+                        "is_active": true,
+                        "module_identifier": "musicFavoritesModule",
+                        "media_template_id": "album",
+                		"row_height_ipad": 242,
+                		"row_height_iphone": 170,
+                		"cell_class_name" : "AlbumCollectionViewCell",
+                		"data_source": "MusicFavoritesDataSource"
+                    },
+                    {
+                        "menu_title": "Audio Books",
+                        "is_active": true,
+                        "module_identifier": "radioFavoritesModule",
+                        "media_template_id": "audiobook",
+                		"row_height_ipad": 242,
+                		"row_height_iphone": 170,
+                		"cell_class_name" : "AlbumCollectionViewCell",
+                		"data_source": "RadioFavoritesDataSource"
+                    },
+                    {
+                        "menu_title": "Radio",
+                         "is_active": true,
+                         "module_identifier": "radioFavoritesModule",
+                         "media_template_id": "radio",
+                         "row_height_ipad": 242,
+                         "row_height_iphone": 170,
+                         "cell_class_name" : "AlbumCollectionViewCell",
+                         "data_source": "RadioFavoritesDataSource"
+                     },
+                     {
+                        "menu_title": "Magazines",
+                        "is_active": false,
+                        "module_identifier": "magazinesModule",
+                        "media_template_id": "magazine",
+                		"row_height_ipad": 264,
+                		"row_height_iphone": 228,
+                		"cell_class_name" : "MagazineCollectionViewCell",
+                		"data_source": "MagazinesDataSource"
+                    },
+                    {
+                        "menu_title": "Games",
+                        "is_active": true,
+                        "module_identifier": "gameFavoritesModule",
+                        "media_template_id": "game",
+                		"row_height_ipad": 264,
+                		"row_height_iphone": 228,
+                		"cell_class_name" : "AlbumCollectionViewCell",
+                		"data_source": "GameFavoritesDataSource"
+                    }
+                ],
+	            "target_identifier": "favoritesModule",
+                "analytics_screen_name": "My Videos"
+            },
+            "identifier": "favoritesModule"
+        },
+
+
+
+        {
+            "class_name": "EntertainmentModule",
+            "config": {
+                "subitems": [
+                    {
+                        "filter_enabled": true,
+                        "is_active": true,
+                        "menu_title": "Magazines",
+                        "module_identifier": "magazinesModule",
+                        "target_identifier": "entertainmentModule",
+                        "search_enabled": false,
+                        "search_module_identifier": "magazineSearchModule",
+                        "media_category_id": 0,
+                		"row_height_ipad": 311,
+                		"row_height_iphone": 228,
+                		"cell_class_name" : "MagazineCollectionViewCell",
+                		"data_source": "MagazinesDataSource",
+                		"media_template_id": "magazine"
+                    }
+                ],
+                "target_identifier": "entertainmentModule"
+            },
+            "identifier": "magazinesEntertainmentModule"
+        },
+
+
+
+        {
+            "class_name": "MoviesEntertainmentModule",
+            "config": {
+                "target_identifier": "moviesEntertainmentModule",
+	            "analytics_screen_name": "Movies",
+                "ad_zone_x": "b_app_movies_listing",
+            },
+            "identifier": "moviesEntertainmentModule"
+        },
+        {
+            "class_name": "MediaEntertainmentModule",
+            "config": {
+                "target_identifier": "mediaEntertainmentModule",
+            },
+            "identifier": "mediaEntertainmentModule"
+        },
+        {
+            "class_name": "ExternalBrowserModule",
+            "config": {
+                "target_identifier": "ExternalBrowserModule",
+                "analytics_screen_name": "ExternalBrowserModule",
+            },
+            "identifier": "externalBrowserModule"
+        },
+        {
+            "class_name": "DynamicWebViewModule",
+            "config": {
+                "target_identifier": "dynamicWebViewModule",
+            },
+            "identifier": "dynamicWebViewModule"
+        },
+        {
+            "class_name": "SectionWebViewModule",
+            "config": {
+                "target_identifier": "sectionWebViewModule",
+                "adjustPositionForMiniPlayer": false,
+            },
+            "identifier": "sectionWebViewModule"
+        },
+        {
+            "class_name": "TVEntertainmentModule",
+            "config": {
+                "target_identifier": "tvEntertainmentModule",
+                "analytics_screen_name": "Best of TV",
+                "ad_zone_x": "b_app_tv",
+            },
+            "identifier": "tvEntertainmentModule"
+        },
+        {
+            "class_name": "MusicEntertainmentModule",
+            "config": {
+                "target_identifier": "musicEntertainmentModule",
+                "analytics_screen_name": "Album Selection",
+            },
+            "identifier": "musicEntertainmentModule"
+        },
+        {
+            "class_name": "RadioEntertainmentModule",
+            "config": {
+            	"section_title": "Radio",
+                "target_identifier": "radioEntertainmentModule"
+            },
+            "identifier": "radioEntertainmentModule"
+        },
+        {
+            "class_name": "FeaturedNewsModule",
+            "config": {
+                "target_identifier": "featuredNewsModule",
+       			"category_root_type": "news",
+            },
+            "identifier": "featuredNewsModule"
+        },
+        {
+            "class_name": "AudioBooksEntertainmentModule",
+            "config": {
+            	"section_title": "Audio Books",
+                "target_identifier": "audioBooksEntertainmentModule",
+                "analytics_screen_name": "Audio Books"
+            },
+            "identifier": "audioBooksEntertainmentModule"
+        },
+        {
+            "class_name": "GamesEntertainmentModule",
+            "config": {
+            	"section_title": "Games",
+                "target_identifier": "gamesEntertainmentModule",
+                "analytics_screen_name": "Games",
+                "ad_zone_x": "b_app_games",
+            },
+            "identifier": "gamesEntertainmentModule"
+        },
+        {
+            "class_name": "KidsEntertainmentModule",
+            "config": {
+            	"section_title": "Kids",
+                "target_identifier": "kidsEntertainmentModule",
+                "analytics_screen_name": "Kids",
+                "ad_zone_x": "b_app_kids",
+                "alternate_plane_icon": "Rocket",
+                "module_identifier_overrides": {
+                	"movie": "topKidsMoviesModule",
+                	"tv": "topKidsTvModule",
+                	"album": "topKidsMusicModule",
+                	"radio": "topKidsRadioModule",
+                	"game": "topKidsGamesModule",
+                	"audiobook": "topKidsAudioBooksModule",
+                }
+            },
+            "identifier": "kidsEntertainmentModule"
+        },
+        {
+            "class_name": "GamesModule",
+            "config": {
+                "data_provider_identifier": "gamesDataProvider",
+                "selection_module_identifier": "gamesOverlayModule",
+                "target_identifier": "gamesModule",
+                "layout_override": {
+                	"featuredItemSizeMusiciPadLandscape": "{140, 182}",
+                	"featuredItemSizeMusiciPadPortrait": "{140, 182}",
+                	"featuredItemSizeMusiciPhonePortrait": "{74, 116}",
+                	"regularItemSizeMusiciPhonePortrait": "{74, 116}",
+                	"featuredItemSizeMusiciPhonePortrait-375": "{93, 135}",
+                	"regularItemSizeMusiciPhonePortrait-375": "{93, 135}",
+                	"regularItemSizeMusiciPhonePortrait-414": "{103, 145}",
+                	"featuredItemSizeMusiciPhonePortrait-414": "{103, 145}",
+                	"itemSpacingMusiciPhonePortrait-375": "-9",
+                	"itemSpacingMusiciPhonePortrait-414": "-6",
+					"usesFeaturedSpot": false
+                },
+                "analytics_screen_name": "Games"
+            },
+            "identifier": "gamesModule"
+        },
+        {
+            "class_name": "VideoPlaylistFullscreenModule",
+            "config": {
+                "target_identifier": "videoPlaylistFullscreenModule",
+                "analytics_screen_name": "Video Playlist"
+            },
+            "identifier": "videoPlaylistFullscreenModule"
+        },
+        {
+            "class_name": "MyMusicModule",
+            "config": {
+                "data_provider_identifier": "musicFavoritesDataProvider",
+                "target_identifier": "myMusicModule",
+                "media_template_id": "album",
+                "analytics_screen_name": "My Music"
+            },
+            "identifier": "myMusicModule"
+        },
+        {
+            "class_name": "MapsModule",
+            "config": {
+                "target_identifier": "mapsModule",
+                "analytics_screen_name": "Maps"
+            },
+            "identifier": "mapsModule"
+        },
+        {
+            "class_name": "SettingsModule",
+            "config": {
+                "target_identifier": "settingsModule",
+                "suppress_parental_controls_button": false,
+                "analytics_screen_name": "Settings",
+                "ad_zone_x": "b_app_settings",
+            },
+            "identifier": "settingsModule"
+        },
+        {
+            "class_name": "NewsModule",
+            "config": {
+                "section_title": "News",
+                "data_provider_identifier": "newsDataProvider",
+                "target_identifier": "newsModule",
+                "analytics_screen_name": "News Listing"
+            },
+            "identifier": "newsModule"
+        },
+        {
+            "class_name": "NewsDetailModule",
+            "config": {
+                "target_identifier": "newsDetailModule",
+                "analytics_screen_name": "News Article"
+            },
+            "identifier": "newsDetailModule"
+        },
+        {
+            "class_name": "NewsCategoriesModule",
+            "config": {
+                "data_provider_identifier": "newsDataProvider",
+                "target_identifier": "newsCategoriesModule",
+                "analytics_screen_name": "News - Select Category"
+            },
+            "identifier": "newsCategoriesModule"
+        },
+        {
+            "class_name": "WeatherModule",
+            "config": {
+                "target_identifier": "weatherModule",
+                "analytics_screen_name": "Weather",
+            },
+            "identifier": "weatherModule"
+        },        
+        {
+            "class_name": "ParentalControlsModule",
+            "config": {
+                "target_identifier": "parentalControlsModule",
+                "suppress_parental_controls_button": true
+            },
+            "identifier": "parentalControlsModule"
+        },
+        {
+            "class_name": "PrivacyPolicyModule",
+            "config": {
+                "target_identifier": "privacyPolicyModule",
+                "analytics_screen_name": "Privacy",
+                "ad_zone_x": "b_app_privacy"
+            },
+            "identifier": "privacyPolicyModule"
+        },
+        {
+            "class_name": "MoviesModule",
+            "config": {
+                "data_provider_identifier": "moviesDataProvider",
+                "selection_module_identifier": "moviesOverlayModule",
+                "target_identifier": "moviesModule",
+       			"category_root_type": "movies",
+                "analytics_screen_name": "Movie Category",
+            },
+            "identifier": "moviesModule"
+        },
+        {
+            "class_name": "MoviesModule",
+            "config": {
+                "data_provider_identifier": "topMoviesDataProvider",
+                "selection_module_identifier": "moviesOverlayModule",
+                "target_identifier": "moviesModule",
+       			"category_root_type": "movies",
+                "analytics_screen_name": "Movie Category",
+            },
+            "identifier": "topMoviesModule"
+        },
+        {
+            "class_name": "KidsMoviesModule",
+            "config": {
+                "data_provider_identifier": "topMoviesDataProvider",
+                "selection_module_identifier": "moviesOverlayModule",
+                "target_identifier": "moviesModule",
+       			"category_root_type": "movies",
+                "analytics_screen_name": "Movie Category",
+            },
+            "identifier": "topKidsMoviesModule"
+        },
+        {
+            "class_name": "MovieFavoritesModule",
+            "config": {
+                "data_provider_identifier": "movieFavoritesDataProvider",
+                "selection_module_identifier": "moviesOverlayModule"
+            },
+            "identifier": "movieFavoritesModule"
+        },
+        {
+            "class_name": "MoviesOverlayModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Details",
+                        "module_identifier": "movieDetailsModule"
+                    },
+                    {
+                        "is_active": true,
+                        "menu_title": "Reviews",
+                        "module_identifier": "movieReviewsModule"
+                    },
+                    {
+                        "is_active": true,
+                        "menu_title": "Related",
+                        "module_identifier": "movieRelatedModule"
+                    }
+                ],
+                "target_identifier": "moviesOverlayModule",
+                "analytics_screen_name": "Movies Detail",
+            },
+            "identifier": "moviesOverlayModule"
+        },
+        {
+            "class_name": "MovieDetailsModule",
+            "config": {
+                "data_provider_identifier": "movieDetailsDataProvider"
+            },
+            "identifier": "movieDetailsModule"
+        },
+        {
+            "class_name": "KidsZoneMoviesOverlayModule",
+            "config": {
+                "submodules": [
+                   {
+                       "is_active": true,
+                       "menu_title": "Details",
+                       "module_identifier": "movieDetailsModule"
+                   }
+                ],
+                "target_identifier": "kidsZoneMoviesOverlayModule"
+            },
+            "identifier": "kidsZoneMoviesOverlayModule"
+        },
+        {
+            "class_name": "KidsZoneTVOverlayModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Details",
+                        "module_identifier": "tvDetailsModule"
+                    }
+                ],
+				"kids_mode": true,
+                "target_identifier": "kidsZoneTVOverlayModule"
+            },
+            "identifier": "kidsZoneTVOverlayModule"
+        },
+        {
+            "class_name": "KidsZoneMusicOverlayModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Songs",
+                        "module_identifier": "musicSongsModule"
+                    }
+                ],
+                "target_identifier": "musicOverlayModule"
+            },
+            "identifier": "kidsZoneMusicOverlayModule"
+        },
+        {
+            "class_name": "TVModule",
+            "config": {
+                "data_provider_identifier": "tvDataProvider",
+                "selection_module_identifier": "tvOverlayModule",
+                "target_identifier": "tvModule",
+       			"category_root_type": "tv",
+                "analytics_screen_name": "Best of TV Category",
+            },
+            "identifier": "tvModule"
+        },
+        {
+            "class_name": "TVModule",
+            "config": {
+                "data_provider_identifier": "topTvDataProvider",
+                "selection_module_identifier": "tvOverlayModule",
+                "target_identifier": "tvModule",
+       			"category_root_type": "tv",
+                "analytics_screen_name": "Best of TV Category",
+            },
+            "identifier": "topTvModule"
+        },
+        {
+            "class_name": "KidsTVModule",
+            "config": {
+                "data_provider_identifier": "topTvDataProvider",
+                "selection_module_identifier": "tvOverlayModule",
+                "target_identifier": "tvModule",
+       			"category_root_type": "tv",
+                "analytics_screen_name": "Best of TV Category",
+            },
+            "identifier": "topKidsTvModule"
+        },
+        {
+            "class_name": "TVFavoritesModule",
+            "config": {
+                "data_provider_identifier": "tvFavoritesDataProvider",
+                "selection_module_identifier": "tvOverlayModule"
+            },
+            "identifier": "tvFavoritesModule"
+        },
+        {
+            "class_name": "TVEpisodeFavoritesModule",
+            "config": {
+                "data_provider_identifier": "tvEpisodeFavoritesDataProvider",
+                "selection_module_identifier": "tvOverlayModule"
+            },
+            "identifier": "tvEpisodeFavoritesModule"
+        },
+        {
+        "class_name": "HTMLModule",
+            "config": {
+                "target_identifier": "htmlModule"
+            },
+            "identifier": "htmlModule"
+        },
+        {
+            "class_name": "TVOverlayModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Details",
+                        "module_identifier": "tvDetailsModule"
+                    },
+                    {
+                        "is_active": true,
+                        "menu_title": "Reviews",
+                        "module_identifier": "tvReviewsModule"
+                    },
+                    {
+                        "is_active": true,
+                        "menu_title": "Related",
+                        "module_identifier": "tvRelatedModule"
+                    }
+                ],
+                "target_identifier": "tvOverlayModule",
+                "analytics_screen_name": "Best of TV Detail",
+            },
+            "identifier": "tvOverlayModule"
+        },
+        {
+            "class_name": "TVDetailsModule",
+            "config": {
+                "data_provider_identifier": "tvDetailsDataProvider"
+            },
+            "identifier": "tvDetailsModule"
+        },
+        {
+            "class_name": "MusicModule",
+            "config": {
+                "data_provider_identifier": "musicDataProvider",
+                "selection_module_identifier": "musicOverlayModule",
+                "target_identifier": "musicModule",
+       			"category_root_type": "music",
+                "analytics_screen_name": "Album Selection Category",
+            },
+            "identifier": "musicModule"
+        },
+        {
+            "class_name": "MusicModule",
+            "config": {
+                "data_provider_identifier": "topMusicDataProvider",
+                "selection_module_identifier": "musicOverlayModule",
+                "target_identifier": "musicModule",
+       			"category_root_type": "music",
+                "analytics_screen_name": "Album Selection Category",
+            },
+            "identifier": "topMusicModule"
+        },
+        {
+            "class_name": "KidsMusicModule",
+            "config": {
+                "data_provider_identifier": "topMusicDataProvider",
+                "selection_module_identifier": "musicOverlayModule",
+                "target_identifier": "musicModule",
+       			"category_root_type": "music",
+                "analytics_screen_name": "Album Selection Category",
+            },
+            "identifier": "topKidsMusicModule"
+        },
+        {
+            "class_name": "MusicFavoritesModule",
+            "config": {
+                "data_provider_identifier": "musicFavoritesDataProvider",
+                "selection_module_identifier": "musicOverlayModule"
+            },
+            "identifier": "musicFavoritesModule"
+        },
+        {
+            "class_name": "MusicOverlayModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Songs",
+                        "module_identifier": "musicSongsModule"
+                    },
+                    {
+                        "is_active": true,
+                        "menu_title": "Reviews",
+                        "module_identifier": "musicReviewsModule"
+                    },
+                    {
+                        "is_active": true,
+                        "menu_title": "Related",
+                        "module_identifier": "musicRelatedModule"
+                    }
+                ],
+                "target_identifier": "musicOverlayModule",
+                "analytics_screen_name": "Album Selection Detail",
+            },
+            "identifier": "musicOverlayModule"
+        },
+        {
+            "class_name": "MusicSongsModule",
+            "config": {
+                "data_provider_identifier": "musicSongsDataProvider"
+            },
+            "identifier": "musicSongsModule"
+        },
+        {
+            "class_name": "RadioModule",
+            "config": {
+                "data_provider_identifier": "radioDataProvider",
+                "selection_module_identifier": "radioOverlayModule",
+                "target_identifier": "radioModule",
+       			"category_root_type": "radio",
+                "analytics_screen_name": "Radio Category",
+            },
+            "identifier": "radioModule"
+        },
+        {
+            "class_name": "RadioModule",
+            "config": {
+                "data_provider_identifier": "topRadioDataProvider",
+                "selection_module_identifier": "radioOverlayModule",
+                "target_identifier": "RadioModule",
+       			"category_root_type": "radio",
+                "analytics_screen_name": "Radio Category",
+            },
+            "identifier": "topRadioModule"
+        },
+        {
+            "class_name": "KidsRadioModule",
+            "config": {
+                "data_provider_identifier": "topRadioDataProvider",
+                "selection_module_identifier": "RadioOverlayModule",
+                "target_identifier": "RadioModule",
+       			"category_root_type": "Radio",
+                "analytics_screen_name": "Radio Category",
+            },
+            "identifier": "topKidsRadioModule"
+        },
+        {
+            "class_name": "RadioFavoritesModule",
+            "config": {
+                "data_provider_identifier": "radioFavoritesDataProvider",
+                "selection_module_identifier": "radioOverlayModule"
+            },
+            "identifier": "radioFavoritesModule"
+        },
+        {
+            "class_name": "RadioOverlayModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Details",
+                        "module_identifier": "radioDetailsModule"
+                    },
+                    {
+                        "is_active": true,
+                        "menu_title": "Reviews",
+                        "module_identifier": "radioReviewsModule"
+                    },
+                    {
+                        "is_active": true,
+                        "menu_title": "Related",
+                        "module_identifier": "radioRelatedModule"
+                    }
+                ],
+                "target_identifier": "radioOverlayModule"
+            },
+            "identifier": "radioOverlayModule"
+        },
+        {
+            "class_name": "RadioDetailsModule",
+            "config": {
+                "data_provider_identifier": "radioDetailsDataProvider"
+            },
+            "identifier": "radioDetailsModule"
+        },
+        {
+            "class_name": "AudioBooksModule",
+            "config": {
+                "data_provider_identifier": "audioBooksDataProvider",
+                "selection_module_identifier": "audioBooksOverlayModule",
+                "target_identifier": "audioBooksModule",
+       			"category_root_type": "audiobooks",
+                "analytics_screen_name": "Audio Books Category",
+                "ad_zone_x": "b_app_audiobooks",
+            },
+            "identifier": "audioBooksModule"
+        },
+        {
+            "class_name": "AudioBooksModule",
+            "config": {
+                "data_provider_identifier": "topAudioBooksDataProvider",
+                "selection_module_identifier": "audioBooksOverlayModule",
+                "target_identifier": "audioBooksModule",
+       			"category_root_type": "audiobooks",
+                "analytics_screen_name": "Audio Books Category",
+            },
+            "identifier": "topAudioBooksModule"
+        },
+        {
+            "class_name": "KidsAudioBooksModule",
+            "config": {
+                "data_provider_identifier": "topAudioBooksDataProvider",
+                "selection_module_identifier": "audioBooksOverlayModule",
+                "target_identifier": "audioBooksModule",
+       			"category_root_type": "audiobooks",
+                "analytics_screen_name": "Audio Books Category",
+            },
+            "identifier": "topKidsAudioBooksModule"
+        },
+        {
+            "class_name": "GamesModule",
+            "config": {
+                "data_provider_identifier": "topGamesDataProvider",
+                "selection_module_identifier": "gamesOverlayModule",
+                "target_identifier": "gamesModule",
+       			"category_root_type": "games",
+                "analytics_screen_name": "Games Category",
+            },
+            "identifier": "topGamesModule"
+        },
+        {
+            "class_name": "SubcategoriesModule",
+            "config": {
+                "data_provider_identifier": "topSubcategoriesDataProvider",
+                "target_identifier": "topSubcategoriesModule",
+                "analytics_screen_name": "Categories Category",
+                "media_template_id": "subcategory"
+            },
+            "identifier": "topSubcategoriesModule"
+        },
+        {
+            "class_name": "KidsGamesModule",
+            "config": {
+                "data_provider_identifier": "topGamesDataProvider",
+                "selection_module_identifier": "gamesOverlayModule",
+                "target_identifier": "gamesModule",
+       			"category_root_type": "games",
+                "analytics_screen_name": "Games Category",
+            },
+            "identifier": "topKidsGamesModule"
+        },
+        {
+            "class_name": "AudioBooksOverlayModule",
+            "config": {
+                "submodules": [
+                    {
+                        "is_active": true,
+                        "menu_title": "Songs",
+                        "module_identifier": "musicSongsModule"
+                    },
+                    {
+                        "is_active": true,
+                        "menu_title": "Reviews",
+                        "module_identifier": "musicReviewsModule"
+                    },
+                    {
+                        "is_active": true,
+                        "menu_title": "Related",
+                        "module_identifier": "musicRelatedModule"
+                    }
+                ],
+                "target_identifier": "audioBooksOverlayModule",
+                "analytics_screen_name": "Audio Books Detail",
+            },
+            "identifier": "audioBooksOverlayModule"
+        },
+        {
+            "class_name": "GameFavoritesModule",
+            "config": {
+                "data_provider_identifier": "gamesFavoritesDataProvider",
+                "selection_module_identifier": "gamesOverlayModule"
+            },
+            "identifier": "gameFavoritesModule"
+        },
+        {
+            "class_name": "GamesOverlayModule",
+            "config": {
+                "target_identifier": "gamesOverlayModule",
+                "analytics_screen_name": "Games Detail",
+            },
+            "identifier": "gamesOverlayModule"
+        },
+        {
+            "class_name": "LiveTVOverlayModule",
+            "config": {
+                "target_identifier": "liveTVOverlayModule"
+            },
+            "identifier": "liveTVOverlayModule"
+        },
+        {
+            "class_name": "MagazinesModule",
+            "config": {
+                "data_provider_identifier": "magazinesDataProvider"
+            },
+            "identifier": "magazinesModule"
+        },
+        {
+            "class_name": "LiveTVModule",
+            "config": {
+                "data_provider_identifier": "liveTVDataProvider",
+                "selection_module_identifier": "liveTVOverlayModule",
+                "target_identifier": "liveTVModule",
+                "layout_override": {
+                	"featuredItemSizeMusiciPadLandscape": "{140, 182}",
+                	"featuredItemSizeMusiciPadPortrait": "{140, 182}",
+                	"featuredItemSizeMusiciPhonePortrait": "{74, 116}",
+                	"regularItemSizeMusiciPhonePortrait": "{74, 116}",
+                	"featuredItemSizeMusiciPhonePortrait-375": "{93, 135}",
+                	"regularItemSizeMusiciPhonePortrait-375": "{93, 135}",
+                	"regularItemSizeMusiciPhonePortrait-414": "{103, 145}",
+                	"featuredItemSizeMusiciPhonePortrait-414": "{103, 145}",
+                	"itemSpacingMusiciPhonePortrait-375": "-9",
+                	"itemSpacingMusiciPhonePortrait-414": "-6",
+					"usesFeaturedSpot": false
+                },
+                "analytics_screen_name": "Live TV"
+            },
+            "identifier": "liveTVModule"
+        },
+        {
+            "class_name": "LiveTVModule2",
+            "config": {
+                "target_identifier": "liveTVModule2",
+                "analytics_screen_name": "Live TV"
+            },
+            "identifier": "liveTVModule2"
+        },
+        {
+            "class_name": "ClassificationSettingsModule",
+            "identifier": "classificationSettingsModule"
+        },
+        {
+            "class_name": "ShoppingCatalogsModule",
+            "config": {
+                "data_provider_identifier": "shoppingCatalogsDataProvider",
+                "selection_module_identifier": "shoppingCategoriesModule",
+                "selection_presentation_style": "push",
+                "target_identifier": "shoppingCatalogsModule",
+                "layout_override": {
+                    "featuredItemSizeMusiciPadLandscape": "{140, 182}",
+                    "featuredItemSizeMusiciPadPortrait": "{140, 182}",
+                    "featuredItemSizeMusiciPhonePortrait": "{74, 116}",
+                    "regularItemSizeMusiciPhonePortrait": "{74, 116}",
+                    "featuredItemSizeMusiciPhonePortrait-375": "{93, 135}",
+                    "regularItemSizeMusiciPhonePortrait-375": "{93, 135}",
+                    "regularItemSizeMusiciPhonePortrait-414": "{103, 145}",
+                    "featuredItemSizeMusiciPhonePortrait-414": "{103, 145}",
+                    "itemSpacingMusiciPhonePortrait-375": "-9",
+                    "itemSpacingMusiciPhonePortrait-414": "-6",
+                    "usesFeaturedSpot": false
+                },
+            },
+            "identifier": "shoppingCatalogsModule"
+        },
+        {
+            "class_name": "ShoppingCategoriesModule",
+            "config": {
+                "data_provider_identifier": "shoppingCategoriesDataProvider",
+                "selection_module_identifier": "shoppingItemsModule",
+                "selection_presentation_style": "push",
+                "target_identifier": "shoppingCategoriesModule",
+                "layout_override": {
+                    "featuredItemSizeMusiciPadLandscape": "{480, 480}",
+                    "featuredItemSizeMusiciPadPortrait": "{480, 480}",
+                    "featuredItemSizeMusiciPhonePortrait": "{292, 292}",
+                    "regularItemSizeMusiciPadLandscape": "{230, 230}",
+                    "regularItemSizeMusiciPadPortrait": "{230, 230}",
+                    "regularItemSizeMusiciPhonePortrait": "{138, 138}",
+                    "featuredItemSizeMusiciPhonePortrait-375": "{347, 347}",
+                    "regularItemSizeMusiciPhonePortrait-375": "{165.5, 165.5}",
+                    "regularItemSizeMusiciPhonePortrait-414": "{185, 185}",
+                    "featuredItemSizeMusiciPhonePortrait-414": "{386, 386}",
+                    "edgeInsetsMusiciPadLandscape": "{20, 20, 20, 20}",
+                    "edgeInsetsMusiciPadPortrait": "{20, 20, 20, 20}",
+                    "edgeInsetsMusiciPhonePortrait": "{14, 14, 14, 14}",
+                    "itemSpacingMusiciPadLandscape": "20",
+                    "itemSpacingMusiciPadPortrait": "20",
+                    "itemSpacingMusiciPhonePortrait": "14",
+                    "itemSpacingMusiciPhonePortrait-375": "14",
+                    "itemSpacingMusiciPhonePortrait-414": "14",
+                    "numberOfColumnsMusiciPadLandscape": "4",
+                    "numberOfColumnsMusiciPadPortrait": "3",
+                    "numberOfColumnsMusiciPhonePortrait": "2",
+                    "usesFeaturedSpot": true
+                },
+            },
+            "identifier": "shoppingCategoriesModule"
+        },
+        {
+            "class_name": "ShoppingSubCategoriesModule",
+            "config": {
+                "data_provider_identifier": "shoppingCategoriesDataProvider",
+                "selection_module_identifier": "shoppingItemsModule",
+                "selection_presentation_style": "push",
+                "target_identifier": "shoppingSubCategoriesModule",
+                "layout_override": {
+                    "featuredItemSizeMusiciPadLandscape": "{230, 230}",
+                    "featuredItemSizeMusiciPadPortrait": "{230, 230}",
+                    "featuredItemSizeMusiciPhonePortrait": "{138, 138}",
+                    "regularItemSizeMusiciPadLandscape": "{230, 230}",
+                    "regularItemSizeMusiciPadPortrait": "{230, 230}",
+                    "regularItemSizeMusiciPhonePortrait": "{138, 138}",
+                    "featuredItemSizeMusiciPhonePortrait-375": "{165.5, 165.5}",
+                    "regularItemSizeMusiciPhonePortrait-375": "{165.5, 165.5}",
+                    "regularItemSizeMusiciPhonePortrait-414": "{185, 185}",
+                    "featuredItemSizeMusiciPhonePortrait-414": "{185, 185}",
+                    "edgeInsetsMusiciPadLandscape": "{20, 20, 20, 20}",
+                    "edgeInsetsMusiciPhonePortrait": "{14, 14, 14, 14}",
+                    "itemSpacingMusiciPadLandscape": "20",
+                    "itemSpacingMusiciPhonePortrait": "14",
+                    "itemSpacingMusiciPhonePortrait-375": "14",
+                    "itemSpacingMusiciPhonePortrait-414": "14",
+                    "numberOfColumnsMusiciPadLandscape": "4",
+                    "numberOfColumnsMusiciPadPortrait": "3",
+                    "numberOfColumnsMusiciPhonePortrait": "2",
+                    "usesFeaturedSpot": false
+                },
+            },
+            "identifier": "shoppingSubCategoriesModule"
+        },
+        {
+            "class_name": "ShoppingItemsModule",
+            "config": {
+                "data_provider_identifier": "shoppingItemsDataProvider",
+                "selection_module_identifier": "shoppingOverlayModule",
+                "target_identifier": "shoppingItemsModule",
+            },
+            "identifier": "shoppingItemsModule"
+        },
+        {
+            "class_name": "ShoppingOverlayModule",
+            "config": {
+                "target_identifier": "shoppingOverlayModule"
+            },
+            "identifier": "shoppingOverlayModule"
+        },
+        {
+            "class_name": "ShoppingBagOverlayModule",
+            "config": {
+                "target_identifier": "shoppingBagOverlayModule"
+            },
+            "identifier": "shoppingBagOverlayModule"
+        },
+        {
+            "class_name": "MediaCategoriesModule",
+            "config": {
+                "data_provider_identifier": "mediaCategoriesDataProvider",
+                "target_identifier": "mediaCategoriesModule",
+                "analytics_screen_name": "Category Drop Down",
+            },
+            "identifier": "mediaCategoriesModule"
+        },
+        {
+            "class_name": "EntertainmentSearchModule",
+            "config": {
+                "target_identifier": "entertainmentSearchModule",
+                "analytics_screen_name": "Search",
+            },
+            "identifier": "entertainmentSearchModule"
+        },
+        {
+            "class_name": "PairingHelpModule",
+            "config": {
+                "target_identifier": "pairingHelpModule",
+                "analytics_screen_name": "Pairing Help"
+            },
+            "identifier": "pairingHelpModule"
+        },
+        {
+            "class_name": "SeatPairingOverlayModule",
+            "config": {
+                "target_identifier": "seatPairingOverlayModule",
+                "analytics_screen_name": "Pairing - PIN Code",
+            },
+            "identifier": "seatPairingOverlayModule"
+        },
+        {
+            "class_name": "PlaybackLocationModule",
+            "config": {
+                "target_identifier": "playbackLocationModule",
+                "analytics_screen_name": "Playback Location Selector",
+            },
+            "identifier": "playbackLocationModule"
+        },
+        {
+            "class_name": "AudioAndSubtitlesModule",
+            "config": {
+                "target_identifier": "audioAndSubtitlesModule",
+                "analytics_screen_name": "Audio & Subtitle Selector",
+            },
+            "identifier": "audioAndSubtitlesModule"
+        },
+        {
+            "class_name": "RemoteAudioAndSubtitlesModule",
+            "config": {},
+            "identifier": "remoteAudioAndSubtitlesModule"
+        },
+        {
+            "class_name": "LiveTVAudioAndSubtitlesModule",
+            "config": {},
+            "identifier": "liveTVAudioAndSubtitlesModule"
+        },
+        {
+            "class_name": "LiveTVChannelListModule",
+            "config": {
+                "target_identifier": "liveTVChannelListModule",
+                "analytics_screen_name": "LiveTV Channel Selector",
+            },
+            "identifier": "liveTVChannelListModule"
+        },
+        {
+            "class_name": "LiveTVGuideModule",
+            "config": {
+                "target_identifier": "liveTVGuideModule",
+                "analytics_screen_name": "Live TV - EPG",
+            },
+            "identifier": "liveTVGuideModule"
+        },
+        {
+            "class_name": "FlightInfoModule",
+            "config": {
+            	"suppress_background_image": true
+            },
+            "identifier": "flightInfoModule"
+        },
+        {
+            "class_name": "MyFlightsOverlayModule",
+            "config": {
+                "target_identifier": "myFlightsOverlayModule",
+	            "analytics_screen_name": "Upcoming Flight",
+            },
+            "identifier": "myFlightsOverlayModule"
+        },
+        {
+            "class_name": "PasscodeOverlayModule",
+            "config": {
+                "target_identifier": "passcodeOverlayModule",
+	            "analytics_screen_name": "Parental Control - PIN Code",
+            },
+            "identifier": "passcodeOverlayModule"
+        },
+        {
+            "class_name": "AddFlightByNumberModule",
+            "config": {},
+            "identifier": "addFlightByNumberModule"
+        },
+        {
+            "class_name": "AddFlightByRouteModule",
+            "config": {},
+            "identifier": "addFlightByRouteModule"
+        },        
+        {
+            "class_name": "PlaylistModule",
+            "config": {
+                "target_identifier": "playlistModule",
+	            "analytics_screen_name": "Audio Playlist Popup",
+            },
+            "identifier": "playlistModule"
+        },
+        {
+            "class_name": "VideoPlaylistModule",
+            "config": {
+                "target_identifier": "videoPlaylistModule"
+            },
+            "identifier": "videoPlaylistModule"
+        },
+        {
+            "class_name": "VideoPlayerModule",
+            "config": {
+                "target_identifier": "videoPlayerModule",
+	            "analytics_screen_name": "Video Player",
+            },
+            "identifier": "videoPlayerModule"
+        },     
+        {
+            "class_name": "VideoPlayerModule",
+            "config": {
+                "target_identifier": "liveTVPlayerModule",
+	            "analytics_screen_name": "LiveTV Player",
+            },
+            "identifier": "liveTVPlayerModule"
+        },     
+        {
+            "class_name": "none",
+            "config": {
+                "target_identifier": "syncPlaylistsAlertModule",
+	            "analytics_screen_name": "Pairing - Sync Prompt",
+            },
+            "identifier": "syncPlaylistsAlertModule"
+        },
+        {
+            "class_name": "WeatherOverlayModule",
+            "config": {
+                "target_identifier": "weatherOverlayModule",
+                "analytics_screen_name": "Weather Overlay",
+            },
+            "identifier": "weatherOverlayModule"
+        },
+        {
+            "class_name": "WeatherLocationsModule",
+            "config": {
+                "target_identifier": "weatherLocationsModule",
+                "analytics_screen_name": "Weather Locations - Select Locations"
+            },
+            "identifier": "weatherLocationsModule"
+        },
+    ],
+    "data_providers": [
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchMediaForCategoryID",
+                "media_template_id": "movie"
+            },
+            "identifier": "moviesDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchTopMediaForCategoryID",
+                "media_template_id": "movie"
+            },
+            "identifier": "topMoviesDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchMovieFavorites",
+                "media_template_id": "movie"
+            },
+            "identifier": "movieFavoritesDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchMediaForCategoryID",
+                "media_template_id": "tv"
+            },
+            "identifier": "tvDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchTopMediaForCategoryID",
+                "media_template_id": "tv"
+            },
+            "identifier": "topTvDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchChildMediaForParentURI"
+            },
+            "identifier": "tvDetailsDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchTVFavorites",
+                "media_template_id": "tv"
+            },
+            "identifier": "tvFavoritesDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchTVEpisodeFavorites",
+                "media_template_id": "tvepisode"
+            },
+            "identifier": "tvEpisodeFavoritesDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchMediaForCategoryID",
+                "media_template_id": "album"
+            },
+            "identifier": "musicDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchTopMediaForCategoryID",
+                "media_template_id": "album"
+            },
+            "identifier": "topMusicDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchChildMediaForParentURI"
+            },
+            "identifier": "musicSongsDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchMusicFavorites",
+                "media_template_id": "album"
+            },
+            "identifier": "musicFavoritesDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchMediaForCategoryID",
+       			"category_root_type": "radio",
+                "media_template_id": "radio"
+            },
+            "identifier": "radioDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchTopMediaForCategoryID",
+                "media_template_id": "radio"
+            },
+            "identifier": "topRadioDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchChildMediaForParentURI"
+            },
+            "identifier": "radioDetailsDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchRadioFavorites",
+                "media_template_id": "radio"
+            },
+            "identifier": "radioFavoritesDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchMagazines",
+                "media_template_id": "magazine"
+            },
+            "identifier": "magazinesDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchMediaForCategoryID",
+       			"category_root_type": "audiobooks",
+                "media_template_id": "audiobook"
+            },
+            "identifier": "audioBooksDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchTopMediaForCategoryID",
+       			"category_root_type": "audiobooks",
+                "media_template_id": "audiobook"
+            },
+            "identifier": "topAudioBooksDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchTopMediaForCategoryID",
+       			"category_root_type": "games",
+                "media_template_id": "game"
+            },
+            "identifier": "topGamesDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchTopSubcategoriesForCategoryID"
+            },
+            "identifier": "subcategoriesDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchTopSubcategoriesForCategoryID",
+            },
+            "identifier": "topSubcategoriesDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchMediaForCategoryID"
+            },
+            "identifier": "gamesDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchTopMediaForCategoryID"
+            },
+            "identifier": "topGamesDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchMediaForLiveTV"
+            },
+            "identifier": "liveTVDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "media_template_id": "movie",
+       			"category_root_type": "movies",
+                "selector": "fetchMediaCategories"
+            },
+            "identifier": "movieCategoriesDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "media_template_id": "tv",
+       			"category_root_type": "tv",
+                "selector": "fetchMediaCategories"
+            },
+            "identifier": "tvCategoriesDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "media_template_id": "album",
+       			"category_root_type": "music",
+                "selector": "fetchMediaCategories"
+            },
+            "identifier": "musicCategoriesDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "media_template_id": "radio",
+       			"category_root_type": "radio",
+                "selector": "fetchMediaCategories"
+            },
+            "identifier": "radioCategoriesDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "media_template_id": "audiobook",
+       			"category_root_type": "audiobooks",
+                "selector": "fetchMediaCategories"
+            },
+            "identifier": "audioBookCategoriesDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "media_template_id": "movie",
+       			"category_root_type": "kids",
+                "selector": "fetchMediaCategories"
+            },
+            "identifier": "kidsCategoriesDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "media_template_id": "game",
+       			"category_root_type": "games",
+                "selector": "fetchMediaCategories"
+            },
+            "identifier": "gameCategoriesDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "media_template_id": "liveTV",
+                "selector": "fetchLiveTVCategories"
+            },
+            "identifier": "liveTVCategoriesDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchShoppingCatalogs"
+            },
+            "identifier": "shoppingCatalogsDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchShoppingCategories"
+            },
+            "identifier": "shoppingCategoriesDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchShoppingItems"
+            },
+            "identifier": "shoppingItemsDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchMediaCategories"
+            },
+            "identifier": "mediaCategoriesDataProvider"
+        },
+        {
+            "class_name": "PSSDKDataProvider",
+            "config": {
+                "selector": "fetchNews"
+            },
+            "identifier": "newsDataProvider"
+        },
+       {
+           "class_name": "PSSDKDataProvider",
+           "config": {
+               "selector": "fetchGameFavorites",
+               "media_template_id": "game"
+       },
+           "identifier": "gamesFavoritesDataProvider"
+       }
+    ]
+}

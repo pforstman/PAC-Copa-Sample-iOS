@@ -1,0 +1,6 @@
+framework module PACWidevineDrm {
+  umbrella header "PACWidevineDrm.h"
+
+  export *
+  module * { export * }
+}

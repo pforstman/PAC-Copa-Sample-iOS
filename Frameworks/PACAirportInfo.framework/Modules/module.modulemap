@@ -1,0 +1,6 @@
+framework module PACAirportInfo {
+  umbrella header "PACAirportInfo.h"
+
+  export *
+  module * { export * }
+}

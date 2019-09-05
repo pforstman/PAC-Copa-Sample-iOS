@@ -1,0 +1,785 @@
+
+
+COPA change log
+
+=============================================
+
+8/23/19
+
+Sample App Version 1.1.8
+
+PACUI_CoreKit Version 3.19.34.2
+
+1. FB69653: Flight Tracker popover adjusting after displaying...
+2. FB69657: iOS 13 - iPad - Search popover - the top is getting chopped off.
+3. FB69658: iOS 13 - iPad - Flight Path popover - content looks too far up in the popover.
+4. MRC-138: iOS 13 - iPad - Expanded miniplayer popovers are getting thrown behind miniplayer view
+5. MRC-136: iOS 13 - iPad - Can't tap out of overlays in landscape mode
+6. MRC-137: iOS 13 - iPad - Selecting a new section from the nav creates a really tall header bar in landscape
+7. MRC-176: Games section, scroll view scrolls up unnecessarily
+8. MRC-192: Exclude trailers from search
+9. MRC-167: No connection alert presented - in some products “Connect Screen” never shown if connected to unrecognized SSID
+10. MRC-178: Top bar collapsing too small after video finishes
+
+=============================================
+
+8/9/19
+
+Sample App Version 1.1.6
+
+1. MRC-40: Limiting language codes to supported GUI languages
+
+PACUI_CoreKit to version 3.19.32.1
+
+1. artf204478: MRC-41: VOD seeking does not work and causes seek bar to stall if seek time is under certain amount
+2. MRC-37: iOS - Banner ad still fetched for an empty/hidden category
+3. MRC-39: iOS - "Failed to purchase item; 9002" appears after disconnection while on Home page
+4. Set deployment target to iOS 10 for PanaSkyKit project (core framework)
+5. artf137680: MRC-135: Banner Ad not seen on full screen media player.
+6. artf203927: MRC-40: Search does not return results if device locale is not supported in metadata
+7. Fix style of next/previous buttons in auto complete toolbar within “Add Flight” widget
+8. artf204145: MRC-24: Can't get rid of the keyboard when incorrect airport is added to flight widget
+
+=============================================
+
+7/26/19
+
+PACUI_CoreKit version 3.19.30.1
+
+1. Begin changes to support iOS 13
+2. artf137726: Changing categories doesn't clear OneMedia Zone.
+3. artf202993: TV Short Title metadata field is not displaying
+4. Fixed crash on launch in ground mode
+5. artf202838: No player is deployed if app launched during PA
+6. iOS 13 fix for problem with custom nav bar
+7. Correcting default values for flight parameters
+8. artf202839: Splash Screen - Logo aspect ratio is not maintained after screen rotation
+9. artf202750: Favorites page does not refresh after adding movie/TV from seatback
+10. Conform “trailer” type to equal “movie” for search results
+11. artf204492: Domestic route based content not displayed on ground
+
+=============================================
+
+7/12/19
+
+Sample App Version 1.1.4
+
+1. Changed deployment target to iOS 10.0
+
+PACUI_CoreKit version 3.19.28.5
+
+1. FB69629: Home Page is trying to reload after unlocking phone
+2. FB69628: In App Advertisement view - correct styling of status bar color
+3. artf204451: Clickthrough ads cause mini AOD player controls to disappear
+4. artf204132:  AOD then VOD causes playback to begin in 90 seconds
+5. artf204370: Crash when typing in search phrases
+6. artf204491: HTML5 video player within microsite does not play video
+7. Fix issue with video player opening “behind” after AOD play and VOD search > play
+
+=============================================
+
+6/28/19
+
+Sample App Version 1.1.2
+
+1. InFlight SDK to version 03.19.02.00
+
+PACUI_CoreKit version 3.19.26.1
+
+1. artf203086 : Pair with Seatback for Sync Alert in translation needs text realignment
+2. artf197172: Estimated Arrival time is not correct
+3. artf202061: Screen orientation stays on landscape after AOD > Search VOD > Play VOD > Exit
+4. Added code to encode (base64) url passed into our web module via openURL
+5. artf203656: When not connected to aircraft / rack SSID, app doesn't prompt to for "Exit Entertainment"
+6. artf203178: Search results should be configurable
+7. Adding check to make sure we don’t add tracks when syncing albums
+8. Upgraded InFlight SDK to v. 03.19.02.00
+9. artf203974: Language targeted advertisement does not work if device locale is Chinese
+10. artf195144: Crash after VOD > Disconnect > Sleep/Wake
+11. artf204115: VOD player terminates after expanding and collapsing soundtrack pop-up
+
+=============================================
+
+6/14/19
+
+PACUI_CoreKit version 3.19.24.4
+
+1. artf202486 : OneMedia Banner loading in Browser instead of Webview - make setting configurable
+2. artf202794 : Corrected some right-to-left language logic in home screen carousel
+3. Added console log output at startup to announce core framework version number
+4. artf203018: OneMedia banner ads are always clickthrough regardless of destination_type
+5. artf202960: Add version number of core framework to Settings screen
+
+=============================================
+
+5/6/19
+
+Sample App Version 1.0.125
+
+1. Integrated rebuilt framework 01.01.00.125
+
+PACUI_CoreKit Version 01.01.00.125
+
+1. Rebuilt framework to correct missing architecture
+
+=============================================
+
+5/3/19
+
+Sample App Version 1.0.124
+
+1. Enabling dynamic menu: set dynamic_main_menu_enabled: true in AdaptiveConfig.js
+2. Upgraded to Swift 5
+3. Begin building with xCode 10.2.1
+4. Enabled auto signing for P target
+5. Moved language codes to config (IMPORTANT: Host app must now include language_codes array to support localization)
+6. Modified "Remove Unsupported Architectures" run scripts to inlcude all frameworks: (*.framework)
+
+PACUI_CoreKit Version 01.01.00.124
+
+1. Allow movie overlay image tap gesture to trigger "Play" in kids mode on iPad
+2. FB69503: Change search to key off minimum of two characters instead of three
+3. Upgraded project to Swift 5
+4. Building with xCode 10.2.1
+5. Read language code mappings in from AdaptiveConfig.js
+
+=============================================
+
+2/15/19
+
+Sample App Version 1.0.120
+
+1. artf198151: Update scheme to support new App ID / Bundle ID
+2. Added dynamic_main_menu_enabled": false to AdaptiveConfig
+3. Upgraded InFlight SDK to v. 03.17.00.02 (added 2nd widevine framework)
+   (NOTE: Host app must upgrade to this version of InFlight SDK to prevent crashing on soundtrack selection)
+4. Upgraded PACUI_CoreKit to version 01.01.00.120
+
+PACUI_CoreKit Version 01.01.00.120
+
+1. Fixed a core styling bug with kids zone AlbumCollectionViewCell -> titleLabel
+
+=============================================
+
+2/5/19
+
+Sample App Version 1.0.118
+
+1. Upgraded PACUI_CoreKit to version 01.01.00.118
+2. Modified tail_numbers format in AdaptiveConfig.js IMPORTANT: host app must make this change for tail number matching to work correctly.
+3. Disabled bitcode on the project (latest version of InFlight SDK requires host app to disable bitcode.)
+
+PACUI_CoreKit Version 01.01.00.118
+
+1. Fix app getting into a bad state and getting stuck in connection screen
+2. Swapping rating to NSNumber
+3. Modified InitialViewController logic for startup with tail number (weren’t handling no connection)
+4. Adding correct background image name for iPhone X in InitialViewController
+5. Fix connection pop up never going away when we are using tail number.
+6. Fixed FB69287: If you loose connection and tap the back arrow in album details the page displays incorrectly.
+7. Show “no connection” when ground services disabled and we have an LTE connection but no wifi
+8. Adding more checks for contentType for track/audio
+9. Fixed FB69336: Lost Hamburger Nav
+10. Fixed FB69334: Lost Connection - on a different section...reverts back to home
+11. Fixed FB 69335: CRASH - Lost Connection
+12. Filtering out news categories without articles
+13. Fixed crash to set bookmarkInfo to nil if we don’t have a valid result
+14. Fixed artf195435: Pair icon image is not displayed on the menu
+15. Adding child news categories with parent
+16. Refactored login logic to resolve tailNumber w/ login conflicts
+17. Remove default ad zone for Home
+18. Only call checkForAdCell if advertising_widget_enabled = true
+19. Clean up some threading in SeatPairingManager
+20. Don’t call loadAdForZone if no zone defined
+21. Fixed artf195529: Automatic Favorite sync does not work when paired
+22. Updating available status before favoriting.
+23. Adding contenttype check for trailer
+24. Fix scenario where current movie object wasn’t set
+25. Fixing more favorite issues
+26. Adding error handling for audio tracks/subtitles
+27. Fixed artf196392: Audio tracks are not added from the PED to the seatback
+28. Upgrade to InFlight SDK version 03.17.00.02
+29. Change video player stop to pause in videoPlayer viewWillDisappear
+30. Fixed artf197084: Crash after adding tracks on seatback then sync inside AOD player
+31. Fixed artf197085: CRASH > Crash after removing tracks from playlist inside AOD player then attempting to play playlist
+32. Fixed FB69345: Flight Tracker - text not wrapping...
+33. Allow movie overlay image gesture in kids mode on iPad for playback
+
+=============================================
+
+11/30/18
+
+Sample App Version 1.0.111a
+
+1. Upgraded PACUI_CoreKit to version 01.01.00.111a
+
+PACUI_CoreKit Version 01.01.00.111a
+
+1. Fixed artf194882: Changing soundtrack does not change audio language
+
+=============================================
+
+10/5/18
+
+Sample App Version 1.0.111
+
+1. Upgraded PACUI_CoreKit to version 01.01.00.111
+
+PACUI_CoreKit Version 01.01.00.111
+
+1. Fixed FB69173: Favorites - all media grayed out.
+
+=============================================
+
+10/4/18
+
+Sample App Version 1.0.110
+
+1. Upgraded PACUI_CoreKit to version 01.01.00.110
+2. Added $ps-bg_color_for_bg_image to stylesheet (NOTE: Both $ps-bg_color_for_bg_image and UIView.bg_color_for_bg_image_color_style must be added to stylesheet.cas as indicated in sample app, without this the background management in UI will be broken)
+3. Added tail number keys to AdaptiveConfig (NOTE: App will not connect to aircraft without these new settings, regex pattern must be added exactly as indicated in sample app)
+4. Added PS_DISABLE_TAIL_NUMBER_MATCHING pre-processor macro to debug and release configurations for EM targets (NOTE: Tail number matching does not work in the emulator environment, we added this macro and associated code in AppDelegate to override tail number lookup when creating builds to be run against emulator)
+
+PACUI_CoreKit Version 01.01.00.110
+
+1. Implement tail number logic to replace SSID lookups
+2. Added weather_forecast_number_of_days to AdaptiveConfig
+3. Improved loading of background image into Connect Screen
+4. Moved all calls to openURL off of background threads
+5. Cleaned up UI alignment of "badge" label
+6. Added new logo_in_main_menu_alignment key to AdaptiveConfig
+7. Corrected threading issue with image loading
+8. Corrected background color issue with fullscreen weather
+9. Corrected positioning of expand chevron for non-X phones
+10. Fixed artf187894: Under iOS 12 the App header is not responsive
+11. Improved UI layout constraints for logo at top of main menu
+12. Corrected color issue with volume up/down buttons in mini player
+13. Fixed FB69114: (Accessibility) Mini player doesn't function correctly with voiceover on.
+14. Fixed FB69113: iOS 12 (Accessibility) - User can't tap to dismiss details page
+15. Fixed FB69139: Maps [rotation] logic...phone only
+16. Fixed FB69140: TV Shows - iPad detail view bug (improved cell height calculation)
+17. Adjusted height of header for exit button in mini app mode
+18. Added regex support to tail number matching logic
+19. Added support for device language setting in search results
+20. Cleaned up rating stars layout (support for critic score is zero and people score non-zero)
+21. Fixed FB69170: Kids World - Watch Trailer on iPad is missing...
+
+=============================================
+
+8/3/18
+
+Sample App Version 1.0.105
+
+1. Changed default_seat_class from "economy" to "PED"
+
+PACUI_CoreKit Version 01.01.00.104a
+
+1. Fixed bug in Favorites music section header name: changed from "Audio Books" to "Music"
+2. Added localization to Favorites section names
+3. Fixed bug: Mini player disappears when you re-enter app from sleep
+
+=============================================
+
+4/25/18
+
+PACUI_CoreKit Version 01.01.00.104
+
+1. Fixed artist name missing from search results
+2. Locked home tile to open only the current weather to destination
+3. Removed closable button on tile view
+4. Fixed Carousel images sizes.
+
+=============================================
+
+4/24/18
+
+Sample App Version 1.0.103
+
+1. Added new eReader menu icons to project in CopaAssets.xcassets
+2. Updated AdaptiveConfig.json to support new eReader menu icons
+
+
+PACUI_CoreKit Version 01.01.00.103
+
+1. Tweak logic for loading dynamic menu icon images
+2. Fix for some media images not loading
+3. Radio titles are in Black instead of white
+4. Patch for home screen flickering. We now add the cell if we have an ad.
+5. Fixing font issue with attributed text
+6. Add color styling to dynamic menu icons
+7. Removed some background colors that were set to white - made them clear for the view background comes through
+8. Fixed: Weather only displays the High temperature for both celsius and fahrenheit
+9. Make main menu logo height dynamic.
+10. Fix for weather placeholder text always defaulting to New York
+11. Make ads not closable by default
+12. Fixed: Carousal image sizes are wrong (and make ad index 1 based)
+13. Add check for PACSystemServiceStateBlocked in isServiceAvailable
+14. Fixed: Flight Tracker popover should adjust the height based on content....
+15. Fixed: Favorites badge is missing for TV Episodes in search results.
+
+
+=============================================
+
+4/06/18
+
+Sample App Version 1.0.96
+
+1. Fixed Adzone issues
+2. Fixed issue where menu goes blank
+3. Fixed crash when description is missing in dataset
+4. Fixed done button constraints in the video player
+5. Fixed issue with search status changing to black text
+6. Added rotation support for HTML map view on iPhone
+7. Added more preferred status bar calls
+8. Fixed home view to not show continue playing for trailers
+
+
+PACUI_CoreKit Version 01.01.00.96
+
+1. Fix for status bar height getting incorrect on iPhone X in video player (landscape)
+2. Fixed: Radio - detail view - Fav badge is large and shifted off the thumbnail
+3. Fixed: Scroll view not reflowing when miniplayer is up
+4. Fixed bug with iOS9 weather locations cancel button
+5. Fixed: iPhone 5s - Progress bar has too much empty space or padding.
+6. Cleaned up some constraint warnings.
+7. News article is hidden at the bottom due to OneMedia banner
+8. Fix for main menu going blank
+9. Fixed an issue with home modules adzone.
+10. Fixed: Opening video player and immediately closing it will cause audio to play for 3-5 seconds
+11. Fix crash in Search when description is missing in the dataset
+12. Fixed: iOS 9.3.5 ( Selecting Internet will cause the app to lock up and abruptly close )
+13. Moved setNeedsStatusBarApperanceUpdate call to after the view is loaded to avoid shifting
+14. Added PACAdvertisingItemDestinationTypeMedia support in ad click thru
+15. Added video_news to list of dynamic menu identifiers supported
+16. Adding check for ped_hide_airmode in menu metadata
+17. Added nil check for invalid dynamic modules (to avoid possible crash)
+18. Fixed done button constraint in video player
+19. Adjusted subtitles overlay on iPhone X
+20. Cleanup nav menu alignment if icons missing
+21. Fixed: (iPhone) User can't play a title from search results
+22. Fixed: iPad Pro landscape....featured carousel shadow doesn't go all the way across.
+23. Fixed: Search - status bar changes to black text...should be white
+24. Addressed Movies section - subcategory "Kids" vs "Kids World"
+25. Update to Done button to fit other languages (video player).
+26. Adding rotation to sectionWebView on iPhone.
+27. Fixed: Mini player still shows after VOD completes playback on seat while in background.
+28. Fixed: Flight Tracker overlaps on IphoneX
+29. Fix for video player favorites tv episodes + hiding continue playing when it’s trailer.
+30. Fixed: If you search for a Movie/TV Program, the Play button and the Watch Trailer button don't function.
+
+
+=============================================
+
+3/23/18
+
+Sample App Version 1.0.86
+
+1. Added -ObjC to OTHER_LDFLAGS in production target build settings per InFlight SDK documentation.
+2. Make sure PACWidevineDrm.framework and libpaccoredrm.a are added to project correctly per InFlight SDK documentation.
+3. Disabled BITCODE in project settings (Must be disabled to support inclusion of PACWidevineDrm.framework).
+4. Updated "Remove Unsupported Architectures" run script per InFlight SDK documentation.
+
+
+PACUI_CoreKit Version 01.01.00.85
+
+1. Fix for status bar height calculation getting corrupted after video player opens in landscape (iPhone X only).
+2. Fix for "Favorites Badge" position and size incorrect in Radio Detail View.
+3. Fixed scroll view not reflowing to reflect bottom margin when mini player is visible.
+4. Fix for main menu vanishing when hide_logo_in_main_menu and mini_app_hide_exit_button are both set to "true".
+
+
+=============================================
+
+3/20/18
+
+Sample App Version 1.0.84
+PACUI_CoreKit Version 01.01.00.84
+
+1. Fixed: The review text often includes bolded text via HTML, but doesn't appear first time opening details.
+2. Fixed: Accessibility - unable to adjust the audio position scrubber bar for the audio overlay.
+3. Fixed video player crasher.
+4. Added UI support for iPad split view.
+5. Fixed an issue with "toast" message positioning in iOS 11.
+6. Fixed a few misc UI issues.
+7. Added solution for "swipe to go back"
+8. Fixed screen freeze issue with "swipe to go back"
+
+
+=============================================
+
+3/15/18
+
+Sample App Version 1.0.80
+
+1. Added logic to hide iPhone notch on Video Player
+2. Fixed TV Shows scroll view too low on iPhone X
+3. Fixed constraint issues in settings
+4. Fixed TV duration alignment issues
+5. Voiceover - wasn't able to adjust audio position scrubber bar
+6. Fixed kids zone tv not showing tv episodes
+7. Fixed swipe back functionality
+
+=============================================
+
+3/01/18
+
+Sample App Version 1.0.79
+
+1. Fixed issue where movies title was never changing back to play movie after it was finished
+2. Updated lost connection to account for not supporting ground mode
+3. Fixed Top menu logo not getting removed from view when it's disabled with exit button
+4. Update styles in video player favorites button + Mini player add to playlist button to support with player_highlight and player_icons styles.
+
+
+=============================================
+
+2/23/18
+
+Sample App Version 1.0.77
+
+1. Backing out swipe fixed.
+2. Disable "+" favorites button in minelayer when content is audio book or radio.
+3. Updated UIAccessibilityLayoutChangedNotifications.
+4. Adding accessibility elements to Navigation bar.
+5. Added check for ground mode in trailer playback (iPhone).
+6. Enabled parental lock icon in title bar in settings section.
+7. Fixed now playing animation not working on radio.
+8. Fixed constraints issues in HTML View.
+9. Improvement detecting between 3gLTE/WIFI.
+10. Fix episode description running off the screen when all buttons are missing.
+11. Updated constraints for kids zone overlay.
+
+
+=============================================
+
+2/7/18
+
+Sample App Version 1.0.74
+
+1. Updated InFlight SDK to version 03.12.00.00 in both targets (EM and P)
+2. Updated sample app stylesheet to reflect PanaSky defaults
+3. Add ClassificationSettings-en.html resource g
+4. Updated Localizable.strings file to support ClassificationSettings
+5. Added LogoSmall asset as example for showing product logo at top of main nav menu
+6. Added some corrections in stylesheet.cas
+
+
+PACUI_CoreKit Version 01.01.00.74
+
+1. iPhone X UI improvements
+2. Fixed: See "Watch" badge when expecting to see "New" or "Boxset"
+3. Fixed: Weather city from home screen should not be linked with the weather section
+4. Fixed: TV show edsode description is running off the screen
+5. Fixed: App crashes on selecting certain music albums
+6. Fixed issue with playlist button missing on iPhone music detail view
+7. Fixed issues with Kids Media Details Description
+8. Fixed: No artist visible for Music titles on listing screen
+9. Fixed: Flight path module - Airplane is too high...should be centered with city names
+10. Fixed UI issues with Volume bar at full volume
+11. Allow for small logo in main menu if exit button is disabled
+12. Fixed crash on opening Video News section
+13. Fixed issue with mini player icons not styling correctly on first render
+14. Fixed favorite badge not rendering in “Series” mode in tv detail
+15. Fixed multiple voice over (accessibility) issues
+16. Added ps-miniplayer_bg and miniplayer_bg_color_style to stylesheet to fix mini player background color issue
+
+
+=============================================
+
+1/10/18
+
+PACUI_CoreKit Version 01.01.00.65
+
+1. Removed default image for content ratings - fall back to using description if rating = 0.
+2. Fixed close button not showing on modal view (parental controls)
+3. Fixed logic on watch trailers to prompt user to pair when not paired.
+4. Fixed weather location search is missing the close or done button
+5. Corrected styles for weather module.
+6. Begin correcting some iPhone X layout issues
+7. Fixed TV Show description to wrap instead of going under the fav icon.
+8. Fixed Passcode and Pairing screens to have the same spacing
+9. Watch Trailer button: center text vertically in this block.
+10. Begin work to accommodate new OneMedia ad spots.
+11. Building core framework with xCode 9.2 now
+
+
+=============================================
+
+12/20/17
+
+PACUI_CoreKit Version 01.01.00.64
+
+1. Fixed white screen issue when alert is open and shutdown modules is called.
+
+
+=============================================
+
+12/18/17
+
+PACUI_CoreKit Version 01.01.00.63
+
+1. Cleaned up some misc UI issues
+2. Fixed rotation issues in the Maps section
+3. Fixed crash issue with wifi monitoring when modules are in the background
+
+
+=============================================
+
+12/13/17
+
+PACUI_CoreKit Version 01.01.00.62
+
+1. Cleaned up orientation management within modules
+2. Fixed UI issue: search list pushed up behind search bar
+
+
+=============================================
+
+12/12/17
+
+PACUI_CoreKit Version 01.01.00.61
+
+1. Misc core framework changes (updated core ui framework to latest:61)
+
+
+11/22/17
+
+PACUI_CoreKit Version 01.01.00.44 cp5
+
+1. Fixed rotation bug in video player
+
+
+Sample App Version: 1.0.44 cp5
+
+1. Corrected color style of player_unplayed
+
+
+=============================================
+
+11/15/17
+
+PACUI_CoreKit Version 01.01.00.44 cp4
+
+1. No changes
+
+
+Sample App Version: 1.0.44 cp4
+
+1. Corrected DRM library version mismatch
+
+
+=============================================
+
+11/9/17
+
+PACUI_CoreKit Version 01.01.00.44 cp3
+
+1. Change all Portuguese localization to return 'POR'.
+
+
+=============================================
+
+11/9/17
+
+PACUI_CoreKit Version 01.01.00.44 cp2
+
+1. Change all Spanish localization to return 'SPA'.
+
+
+=============================================
+
+11/9/17
+
+PACUI_CoreKit Version 01.01.00.44 cp1
+
+1. Update Exit Entertainment String to Exit
+2. Disabled media categories
+
+
+=============================================
+
+11/2/17
+
+PACUI_CoreKit Version 01.01.00.44
+
+1. Improvements to navigation UI in support of iOS 11
+2. Some misc UI cleanup
+3. Fixed issue with video player nav bar fading out while flight info popover still open
+4. More cleanup to hiding People Score if not available
+5. Fixed Edit button getting clipped in some cases
+6. Reduced unnecessary refresh of home screen elements
+7. Modify title of “Audio & Subtitles” if no Subtitles present
+
+
+Sample App Version: 1.0.44
+
+1. Misc style and strings updates
+
+
+=============================================
+
+10/23/17
+
+PACUI_CoreKit Version 01.01.00.40
+
+Sample App Version: 1.0.40
+
+1. Change video player to work with the new SDK bug.
+2. Removed favorites line if possible
+
+
+=============================================
+
+10/18/17
+
+PACUI_CoreKit Version 01.01.00.38
+
+Sample App Version: 1.0.39
+
+Parent issues:
+
+1. Added “Critics“ and “Ratings“ to translation files
+
+
+=============================================
+
+10/16/17
+
+PACUI_CoreKit Version 01.01.00.38
+
+1. Added customHeaders to PACUI_MiniApp
+
+Parent issues:
+
+1. Added sample code in AppDelegate for setting custom headers on mini app
+
+
+=============================================
+
+10/12/17
+
+PACUI_CoreKit Version 01.01.00.37
+
+1. Fixed issue with mini player disappearing in landscape (Map View).
+2. Fixed Map Web view to resize with mini player showing and disappearing.
+3. Fixed landscape issues with launching playback location/ Playlist view from Maps view (landscape).
+4. Fixed problem with search not returning correct results in some cases.
+5. Fixed tv details text not autosizing.
+
+Parent issues:
+
+1. More localization improvements
+
+
+=============================================
+
+10/11/17
+
+PACUI_CoreKit Version 01.01.00.34
+
+1. Fixed “lost connection” alert showing outside of modules
+2. Begin addressing iOS 11 UI issues
+3. Upgraded InFlight SDK to version 03.10.00.08
+4. Fixed crash problem when removing items from overlay when overlay is open on top of favorites section
+5. Fixed clearing playlist bug (while track from playlist is playing causes audio stop)
+6. Expanded language lookups to include all flavors of Spanish & Portuguese
+7. Fixed problem with inconsistent poster image display in Playlist view
+8. Force SectionWebViewController to reload content on rotation
+9. More localization improvements
+10. Fixed conversion logic (math) in Ratings stars (in media detail views)
+11. Fixed module hanging or crashing (iPad) when tapping info button in mini player
+
+
+Parent issues:
+
+1. Upgraded InFlight SDK to version 03.10.00.08
+2. More localization improvements
+
+
+=============================================
+
+9/25/17
+
+PACUI_CoreKit Version 01.01.00.28
+
+1. Fixed some general layout problems in the UI
+2. Fixed rotation problem in video player when inflight info popover was open (iPhone)
+3. Fixed rotation is with the mini player icons bunching together when launching in landscape (iPhone)
+4. Fixed “Watched” indicator label not resizing to fit in certain layouts
+5. Improvements to “Edit” label in nav bar on language changes
+6. Fixed issue with parsing Kids meta data
+7. Now allowing rotation in Section Web View Controller
+8. Multiple changes to cleanup “now playing” animation in playlist and music detail overlay
+9. Fixed some image size problems with kids details views on iPhone 
+
+Parent issues:
+
+1. Changed “TV Shows” to “TV Programs”
+2. Config changes for Maps Web View hide_navigation_items and allow_iphone_rotate
+3. Fixed confusion with "Remove from Favorites" labeling
+
+
+=============================================
+
+9/15/17
+
+PACUI_CoreKit Version 01.01.00.24
+
+1. Fixed localization of metadata (media descriptions, etc.)
+2. Fixed continue watching bug - video player should now open on top when tapping continue watching)
+
+Parent issues:
+
+1. Added a few more localization strings
+
+
+=============================================
+
+
+9/15/17
+
+PACUI_CoreKit Version 01.01.00.23
+
+1. Added better error handling to video player
+2. Increased size for text in missing media placeholder view
+3. Updated SectionWebViewModule to allow for localization of URLs
+4. Added some logging to help debug Continue Watching issues
+5. Added appIdEnabled to MiniApp initialize method
+    (should improve performance significantly while running in production mode with app id off)
+
+
+Parent issues:
+
+1. Added PAC_ENABLE_APP_ID to PREPROCESSOR_DEFINITIONS in emulator target to facilitate app id on/off
+2. Modified call to initialize mini app: [self.miniApp initializeWithAppIdEnabled:appIdEnabled];
+    to take advantage of no app id needed in production for Copa
+3. Added some more localization strings
+4. Turned off existing "Maps" module in config
+5. Added new sampleWebViewModule01 to support in app web view using SectionWebViewModule
+
+
+=============================================
+
+9/13/17
+
+PACUI_CoreKit Version 01.01.00.22
+
+1. Fixed missing PA announcement image
+2. Fix for Flight popover formatting when we have no data.
+3. Fixed no media background color was set to the wrong style
+4. Removed Media process view when it's live TV
+5. Added flight info back into the project
+6. Added Trailer support
+7. Localized a title in Kids section
+8. Hiding advertising cell if we fail or do not have an advertisement 
+9. Added a Stop request when we deallocate broadcast maps
+
+
+Parent issues:
+1. Fix iOS Music stops playing when in lock screen 
+2. Change config to hide movie ratings to false`
+3. Fixed a few localization strings
+4. Set suppress_content_ratings to false in config
+5. Enabled background audio
+6. Set weather_widget_enabled to false in config
+0

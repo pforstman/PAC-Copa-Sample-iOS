@@ -1,0 +1,6 @@
+framework module PACNews {
+  umbrella header "PACNews.h"
+
+  export *
+  module * { export * }
+}

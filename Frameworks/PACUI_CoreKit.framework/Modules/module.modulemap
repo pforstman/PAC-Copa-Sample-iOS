@@ -1,0 +1,98 @@
+framework module PACUI_CoreKit {
+    umbrella header "PACUI_CoreKit.h"
+    
+    export *
+    module * { export * }
+    
+    explicit module Private {
+        
+        header "Version.h"
+        header "AdaptiveRouter.h"
+        header "AdaptiveDataProvider.h"
+        header "AdaptiveController.h"
+        
+        //Adaptive
+        header "UIApplication+URLContext.h"
+        
+        //Classes
+        header "PSNavigationBar.h"
+        header "PSNotifications.h"
+        header "PSSecondaryButton.h"
+        
+        
+        //Categories
+        header "NSBundle+PanaSky.h"
+        header "UIView+PanaSky.h"
+        header "UIImage+PanaSky.h"
+        
+        //Classy
+        header "UIView+CASAdditions.h"
+        
+        //Cells
+        header "DropdownCheckTableViewCell.h"
+        header "CollectionViewHighlightCell.h"
+        header "WeatherForcastCollectionViewCell.h"
+        header "BaseMediaCollectionViewCell.h"
+        header "MediaCollectionViewCell.h"
+
+        //View Controllers
+        header "BasePopoverViewController.h"
+        header "BaseSectionViewController.h"
+        header "BaseOverlayViewController.h"
+        header "MediaViewController.h"
+        header "BaseFlightInfoViewController.h"
+        
+        //Views
+        header "MediaPlaceholderView.h"
+        header "DrawView.h"
+        
+        //Modules
+        header "BaseModule.h"
+        
+        //Models
+//        header "PSShopping.h"
+        header "PSShoppingCatalog.h"
+        header "PSShoppingCategory.h"
+        header "PSShoppingItem.h"
+        header "PSSearchResult.h"
+        
+        //API
+        header "PanaSkySDK.h"
+        
+        //Manager Classes
+        header "ColorManager.h"
+        header "UserManager.h"
+        header "ShoppingCartManager.h"
+        header "AnalyticsManager.h"
+        header "FavoritesManager.h"
+        header "PayPerViewManager.h"
+        header "PlaylistManager.h"
+        header "FlightDataManager.h"
+        
+        //PanaSkyImage
+        header "PanaSkyImageView.h"
+        
+        header "LocalizedButton.h"
+        header "CASStyleableItem.h"
+        header "MainMenuViewController.h"
+        header "FlightStatusView.h"
+        header "SeatPairingManager.h"
+        header "AdvertisingManager.h"
+        header "LoadingIndicatorView.h"
+        header "AdaptiveModule.h"
+        header "UIViewController+Adaptive.h"
+        header "UIColor+PanaSky.h"
+        header "PrivateObjectiveCClass.h"
+        header "PSMedia.h"
+        header "PSPosterURL.h"
+        
+        //Alerts
+        
+        export *
+    }
+}
+
+module PACUI_CoreKit.Swift {
+    header "PACUI_CoreKit-Swift.h"
+    requires objc
+}

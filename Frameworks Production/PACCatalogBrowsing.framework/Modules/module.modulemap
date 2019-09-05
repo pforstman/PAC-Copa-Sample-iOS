@@ -1,0 +1,6 @@
+framework module PACCatalogBrowsing {
+  umbrella header "PACCatalogBrowsing.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module PACMaps {
+  umbrella header "PACMaps.h"
+
+  export *
+  module * { export * }
+}

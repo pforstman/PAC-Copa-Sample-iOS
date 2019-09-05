@@ -1,0 +1,6 @@
+framework module PACWeather {
+  umbrella header "PACWeather.h"
+
+  export *
+  module * { export * }
+}
